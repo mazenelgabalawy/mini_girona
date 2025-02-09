@@ -1,0 +1,49 @@
+[0.008s] Invoking command in '/home/mazen/mini_girona/build/cola2_lib_ros': CMAKE_PREFIX_PATH=/home/mazen/mini_girona/install/cola2_msgs:/home/mazen/mini_girona/install/cola2_nav:/home/mazen/mini_girona/install/minigirona_stonefish:/home/mazen/mini_girona/install/stonefish_ros2:/home/mazen/mini_girona/install/cola2_minigirona:/home/mazen/mini_girona/install/minigirona_description:/home/mazen/mini_girona/install/cola2_control:/home/mazen/mini_girona/install/cola2_lib_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/mazen/mini_girona/install/cola2_msgs/lib:/home/mazen/mini_girona/install/stonefish_ros2/lib:/home/mazen/mini_girona/install/cola2_lib_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/mazen/mini_girona/build/cola2_lib_ros -- -j12 -l12
+[0.049s] [35m[1mConsolidate compiler generated dependencies of target cola2_ros[0m
+[0.078s] [100%] Built target cola2_ros
+[0.088s] Invoked command in '/home/mazen/mini_girona/build/cola2_lib_ros' returned '0': CMAKE_PREFIX_PATH=/home/mazen/mini_girona/install/cola2_msgs:/home/mazen/mini_girona/install/cola2_nav:/home/mazen/mini_girona/install/minigirona_stonefish:/home/mazen/mini_girona/install/stonefish_ros2:/home/mazen/mini_girona/install/cola2_minigirona:/home/mazen/mini_girona/install/minigirona_description:/home/mazen/mini_girona/install/cola2_control:/home/mazen/mini_girona/install/cola2_lib_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/mazen/mini_girona/install/cola2_msgs/lib:/home/mazen/mini_girona/install/stonefish_ros2/lib:/home/mazen/mini_girona/install/cola2_lib_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/mazen/mini_girona/build/cola2_lib_ros -- -j12 -l12
+[0.090s] Invoking command in '/home/mazen/mini_girona/build/cola2_lib_ros': CMAKE_PREFIX_PATH=/home/mazen/mini_girona/install/cola2_msgs:/home/mazen/mini_girona/install/cola2_nav:/home/mazen/mini_girona/install/minigirona_stonefish:/home/mazen/mini_girona/install/stonefish_ros2:/home/mazen/mini_girona/install/cola2_minigirona:/home/mazen/mini_girona/install/minigirona_description:/home/mazen/mini_girona/install/cola2_control:/home/mazen/mini_girona/install/cola2_lib_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/mazen/mini_girona/install/cola2_msgs/lib:/home/mazen/mini_girona/install/stonefish_ros2/lib:/home/mazen/mini_girona/install/cola2_lib_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/mazen/mini_girona/build/cola2_lib_ros
+[0.096s] -- Install configuration: ""
+[0.097s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_lib_ros/lib/libcola2_ros.so
+[0.097s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_lib_ros/include/cola2_lib_ros
+[0.097s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_lib_ros/include/cola2_lib_ros/types.h
+[0.097s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_lib_ros/include/cola2_lib_ros/navigation_helper.h
+[0.097s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_lib_ros/include/cola2_lib_ros/param_loader.h
+[0.097s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_lib_ros/include/cola2_lib_ros/captain_helper.h
+[0.097s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_lib_ros/include/cola2_lib_ros/transform_handler.h
+[0.097s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_lib_ros/include/cola2_lib_ros/setpoints_selector.h
+[0.097s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_lib_ros/include/cola2_lib_ros/this_node.h
+[0.097s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_lib_ros/include/cola2_lib_ros/serviceclient_helper.h
+[0.097s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_lib_ros/include/cola2_lib_ros/diagnostic_helper.h
+[0.097s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_lib_ros/lib/cola2_lib_ros/python
+[0.098s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_lib_ros/lib/cola2_lib_ros/python/cola2_ros
+[0.098s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_lib_ros/lib/cola2_lib_ros/python/cola2_ros/transform_handler.py
+[0.098s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_lib_ros/lib/cola2_lib_ros/python/cola2_ros/navigation_helper.py
+[0.098s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_lib_ros/lib/cola2_lib_ros/python/cola2_ros/this_node.py
+[0.098s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_lib_ros/lib/cola2_lib_ros/python/cola2_ros/diagnostic_helper.py
+[0.098s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_lib_ros/lib/cola2_lib_ros/python/cola2_ros/service_helper.py
+[0.098s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_lib_ros/lib/cola2_lib_ros/python/cola2_ros/captain_helper.py
+[0.098s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_lib_ros/lib/cola2_lib_ros/python/cola2_ros/__init__.py
+[0.098s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_lib_ros/lib/cola2_lib_ros/python/cola2_ros/param_loader.py
+[0.098s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_lib_ros/share/cola2_lib_ros/src/cola2_lib_ros/urdf_macros.xacro
+[0.098s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_lib_ros/share/cola2_lib_ros/environment/library_path.sh
+[0.098s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_lib_ros/share/cola2_lib_ros/environment/library_path.dsv
+[0.098s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_lib_ros/share/ament_index/resource_index/package_run_dependencies/cola2_lib_ros
+[0.098s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_lib_ros/share/ament_index/resource_index/parent_prefix_path/cola2_lib_ros
+[0.098s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_lib_ros/share/cola2_lib_ros/environment/ament_prefix_path.sh
+[0.098s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_lib_ros/share/cola2_lib_ros/environment/ament_prefix_path.dsv
+[0.098s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_lib_ros/share/cola2_lib_ros/environment/path.sh
+[0.099s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_lib_ros/share/cola2_lib_ros/environment/path.dsv
+[0.099s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_lib_ros/share/cola2_lib_ros/local_setup.bash
+[0.099s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_lib_ros/share/cola2_lib_ros/local_setup.sh
+[0.099s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_lib_ros/share/cola2_lib_ros/local_setup.zsh
+[0.099s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_lib_ros/share/cola2_lib_ros/local_setup.dsv
+[0.099s] -- Installing: /home/mazen/mini_girona/install/cola2_lib_ros/share/cola2_lib_ros/package.dsv
+[0.099s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_lib_ros/share/ament_index/resource_index/packages/cola2_lib_ros
+[0.099s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_lib_ros/share/cola2_lib_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.099s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_lib_ros/share/cola2_lib_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.099s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_lib_ros/share/cola2_lib_ros/cmake/ament_cmake_export_libraries-extras.cmake
+[0.099s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_lib_ros/share/cola2_lib_ros/cmake/cola2_lib_rosConfig.cmake
+[0.099s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_lib_ros/share/cola2_lib_ros/cmake/cola2_lib_rosConfig-version.cmake
+[0.099s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_lib_ros/share/cola2_lib_ros/package.xml
+[0.100s] Invoked command in '/home/mazen/mini_girona/build/cola2_lib_ros' returned '0': CMAKE_PREFIX_PATH=/home/mazen/mini_girona/install/cola2_msgs:/home/mazen/mini_girona/install/cola2_nav:/home/mazen/mini_girona/install/minigirona_stonefish:/home/mazen/mini_girona/install/stonefish_ros2:/home/mazen/mini_girona/install/cola2_minigirona:/home/mazen/mini_girona/install/minigirona_description:/home/mazen/mini_girona/install/cola2_control:/home/mazen/mini_girona/install/cola2_lib_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/mazen/mini_girona/install/cola2_msgs/lib:/home/mazen/mini_girona/install/stonefish_ros2/lib:/home/mazen/mini_girona/install/cola2_lib_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/mazen/mini_girona/build/cola2_lib_ros

@@ -1,0 +1,4 @@
+gmake[2]: *** [CMakeFiles/cola2_nav.dir/build.make:76: CMakeFiles/cola2_nav.dir/src/cola2_nav/ekf_base.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/cola2_nav.dir/build.make:90: CMakeFiles/cola2_nav.dir/src/cola2_nav/ekf_base_ros2.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/cola2_nav.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

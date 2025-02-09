@@ -1,0 +1,49 @@
+[0.016s] Invoking command in '/home/mazen/mini_girona/build/minigirona_stonefish': CMAKE_PREFIX_PATH=/home/mazen/mini_girona/install/cola2_minigirona:/home/mazen/mini_girona/install/minigirona_description:/home/mazen/mini_girona/install/cola2_nav:/home/mazen/mini_girona/install/cola2_control:/home/mazen/mini_girona/install/cola2_lib_ros:/home/mazen/mini_girona/install/stonefish_ros2:/home/mazen/mini_girona/install/cola2_msgs:/home/mazen/mini_girona/install/minigirona_stonefish:/opt/ros/humble LD_LIBRARY_PATH=/home/mazen/mini_girona/install/cola2_lib_ros/lib:/home/mazen/mini_girona/install/stonefish_ros2/lib:/home/mazen/mini_girona/install/cola2_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/mazen/mini_girona/build/minigirona_stonefish -- -j12 -l12
+[0.056s] [35m[1mConsolidate compiler generated dependencies of target minigirona_stonefish_node[0m
+[0.073s] [100%] Built target minigirona_stonefish_node
+[0.085s] Invoked command in '/home/mazen/mini_girona/build/minigirona_stonefish' returned '0': CMAKE_PREFIX_PATH=/home/mazen/mini_girona/install/cola2_minigirona:/home/mazen/mini_girona/install/minigirona_description:/home/mazen/mini_girona/install/cola2_nav:/home/mazen/mini_girona/install/cola2_control:/home/mazen/mini_girona/install/cola2_lib_ros:/home/mazen/mini_girona/install/stonefish_ros2:/home/mazen/mini_girona/install/cola2_msgs:/home/mazen/mini_girona/install/minigirona_stonefish:/opt/ros/humble LD_LIBRARY_PATH=/home/mazen/mini_girona/install/cola2_lib_ros/lib:/home/mazen/mini_girona/install/stonefish_ros2/lib:/home/mazen/mini_girona/install/cola2_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/mazen/mini_girona/build/minigirona_stonefish -- -j12 -l12
+[0.086s] Invoking command in '/home/mazen/mini_girona/build/minigirona_stonefish': CMAKE_PREFIX_PATH=/home/mazen/mini_girona/install/cola2_minigirona:/home/mazen/mini_girona/install/minigirona_description:/home/mazen/mini_girona/install/cola2_nav:/home/mazen/mini_girona/install/cola2_control:/home/mazen/mini_girona/install/cola2_lib_ros:/home/mazen/mini_girona/install/stonefish_ros2:/home/mazen/mini_girona/install/cola2_msgs:/home/mazen/mini_girona/install/minigirona_stonefish:/opt/ros/humble LD_LIBRARY_PATH=/home/mazen/mini_girona/install/cola2_lib_ros/lib:/home/mazen/mini_girona/install/stonefish_ros2/lib:/home/mazen/mini_girona/install/cola2_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/mazen/mini_girona/build/minigirona_stonefish
+[0.093s] -- Install configuration: ""
+[0.094s] -- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/lib/minigirona_stonefish/minigirona_stonefish_node
+[0.094s] -- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/data
+[0.094s] -- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/data/pool
+[0.094s] -- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/data/pool/cirs_tank.obj
+[0.094s] -- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/data/minigirona
+[0.094s] -- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/data/minigirona/upper_left.png
+[0.094s] -- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/data/minigirona/vis_bosch350.obj
+[0.094s] -- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/data/minigirona/vis_thruster.mtl
+[0.094s] -- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/data/minigirona/lower_map.png
+[0.094s] -- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/data/minigirona/phy_cylinder_upper.obj
+[0.094s] -- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/data/minigirona/phy_bosch350.obj
+[0.095s] -- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/data/minigirona/vis_cylinder_ul.obj
+[0.095s] -- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/data/minigirona/phy_bosch200.obj
+[0.095s] -- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/data/minigirona/propeller.obj
+[0.095s] -- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/data/minigirona/vis_thruster.obj
+[0.095s] -- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/data/minigirona/vis_cylinder_ur.obj
+[0.095s] -- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/data/minigirona/vis_cylinder_bottom.obj
+[0.095s] -- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/data/minigirona/Phy_Cylinder_Bottom.obj
+[0.095s] -- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/data/minigirona/upper_right.png
+[0.096s] -- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/data/minigirona/vis_bosch200.obj
+[0.096s] -- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/data/minigirona/propeller.mtl
+[0.096s] -- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/data/minigirona/phy_thruster.obj
+[0.096s] -- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/launch
+[0.096s] -- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/launch/minigirona_simulation.launch.py
+[0.096s] -- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/scenarios
+[0.096s] -- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/scenarios/minigirona_tank.scn
+[0.096s] -- Installing: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/scenarios/minigirona.scn
+[0.096s] -- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/ament_index/resource_index/package_run_dependencies/minigirona_stonefish
+[0.097s] -- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/ament_index/resource_index/parent_prefix_path/minigirona_stonefish
+[0.097s] -- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/environment/ament_prefix_path.sh
+[0.097s] -- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/environment/ament_prefix_path.dsv
+[0.097s] -- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/environment/path.sh
+[0.097s] -- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/environment/path.dsv
+[0.097s] -- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/local_setup.bash
+[0.097s] -- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/local_setup.sh
+[0.097s] -- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/local_setup.zsh
+[0.097s] -- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/local_setup.dsv
+[0.097s] -- Installing: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/package.dsv
+[0.097s] -- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/ament_index/resource_index/packages/minigirona_stonefish
+[0.097s] -- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/cmake/minigirona_stonefishConfig.cmake
+[0.097s] -- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/cmake/minigirona_stonefishConfig-version.cmake
+[0.098s] -- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/package.xml
+[0.098s] Invoked command in '/home/mazen/mini_girona/build/minigirona_stonefish' returned '0': CMAKE_PREFIX_PATH=/home/mazen/mini_girona/install/cola2_minigirona:/home/mazen/mini_girona/install/minigirona_description:/home/mazen/mini_girona/install/cola2_nav:/home/mazen/mini_girona/install/cola2_control:/home/mazen/mini_girona/install/cola2_lib_ros:/home/mazen/mini_girona/install/stonefish_ros2:/home/mazen/mini_girona/install/cola2_msgs:/home/mazen/mini_girona/install/minigirona_stonefish:/opt/ros/humble LD_LIBRARY_PATH=/home/mazen/mini_girona/install/cola2_lib_ros/lib:/home/mazen/mini_girona/install/stonefish_ros2/lib:/home/mazen/mini_girona/install/cola2_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/mazen/mini_girona/build/minigirona_stonefish

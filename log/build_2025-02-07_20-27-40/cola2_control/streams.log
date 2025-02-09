@@ -1,0 +1,83 @@
+[0.013s] Invoking command in '/home/mazen/mini_girona/build/cola2_control': CMAKE_PREFIX_PATH=/home/mazen/mini_girona/install/cola2_lib_ros:/home/mazen/mini_girona/install/cola2_msgs:/home/mazen/mini_girona/install/cola2_nav:/home/mazen/mini_girona/install/minigirona_stonefish:/home/mazen/mini_girona/install/stonefish_ros2:/home/mazen/mini_girona/install/cola2_minigirona:/home/mazen/mini_girona/install/minigirona_description:/home/mazen/mini_girona/install/cola2_control:/opt/ros/humble LD_LIBRARY_PATH=/home/mazen/mini_girona/install/cola2_lib_ros/lib:/home/mazen/mini_girona/install/cola2_msgs/lib:/home/mazen/mini_girona/install/stonefish_ros2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/mazen/mini_girona/build/cola2_control -- -j12 -l12
+[0.058s] [35m[1mConsolidate compiler generated dependencies of target cola2_control[0m
+[0.073s] [  0%] Built target ament_cmake_python_copy_cola2_control
+[0.093s] [ 63%] Built target cola2_control
+[0.107s] [35m[1mConsolidate compiler generated dependencies of target controller_node[0m
+[0.107s] [35m[1mConsolidate compiler generated dependencies of target captain_node[0m
+[0.110s] [35m[1mConsolidate compiler generated dependencies of target teleoperation_node[0m
+[0.110s] [35m[1mConsolidate compiler generated dependencies of target pilot_node[0m
+[0.132s] [ 72%] Built target captain_node
+[0.133s] [ 81%] Built target controller_node
+[0.140s] [ 90%] Built target pilot_node
+[0.142s] [100%] Built target teleoperation_node
+[0.328s] running egg_info
+[0.328s] writing cola2_control.egg-info/PKG-INFO
+[0.329s] writing dependency_links to cola2_control.egg-info/dependency_links.txt
+[0.329s] writing top-level names to cola2_control.egg-info/top_level.txt
+[0.331s] reading manifest file 'cola2_control.egg-info/SOURCES.txt'
+[0.332s] writing manifest file 'cola2_control.egg-info/SOURCES.txt'
+[0.361s] [100%] Built target ament_cmake_python_build_cola2_control_egg
+[0.373s] Invoked command in '/home/mazen/mini_girona/build/cola2_control' returned '0': CMAKE_PREFIX_PATH=/home/mazen/mini_girona/install/cola2_lib_ros:/home/mazen/mini_girona/install/cola2_msgs:/home/mazen/mini_girona/install/cola2_nav:/home/mazen/mini_girona/install/minigirona_stonefish:/home/mazen/mini_girona/install/stonefish_ros2:/home/mazen/mini_girona/install/cola2_minigirona:/home/mazen/mini_girona/install/minigirona_description:/home/mazen/mini_girona/install/cola2_control:/opt/ros/humble LD_LIBRARY_PATH=/home/mazen/mini_girona/install/cola2_lib_ros/lib:/home/mazen/mini_girona/install/cola2_msgs/lib:/home/mazen/mini_girona/install/stonefish_ros2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/mazen/mini_girona/build/cola2_control -- -j12 -l12
+[0.375s] Invoking command in '/home/mazen/mini_girona/build/cola2_control': CMAKE_PREFIX_PATH=/home/mazen/mini_girona/install/cola2_lib_ros:/home/mazen/mini_girona/install/cola2_msgs:/home/mazen/mini_girona/install/cola2_nav:/home/mazen/mini_girona/install/minigirona_stonefish:/home/mazen/mini_girona/install/stonefish_ros2:/home/mazen/mini_girona/install/cola2_minigirona:/home/mazen/mini_girona/install/minigirona_description:/home/mazen/mini_girona/install/cola2_control:/opt/ros/humble LD_LIBRARY_PATH=/home/mazen/mini_girona/install/cola2_lib_ros/lib:/home/mazen/mini_girona/install/cola2_msgs/lib:/home/mazen/mini_girona/install/stonefish_ros2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/mazen/mini_girona/build/cola2_control
+[0.383s] -- Install configuration: ""
+[0.383s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_control/lib/cola2_control/libcola2_control.a
+[0.383s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_control/lib/cola2_control/captain_node
+[0.384s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_control/lib/cola2_control/controller_node
+[0.384s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_control/lib/cola2_control/pilot_node
+[0.384s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_control/lib/cola2_control/teleoperation_node
+[0.385s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_control/include/cola2_control
+[0.385s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_control/include/cola2_control/ros_controller
+[0.385s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_control/include/cola2_control/ros_controller/auv_ros_controller_base.h
+[0.385s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_control/include/cola2_control/low_level_controllers
+[0.386s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_control/include/cola2_control/low_level_controllers/poly.h
+[0.386s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_control/include/cola2_control/low_level_controllers/auv_controller_base.h
+[0.386s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_control/include/cola2_control/low_level_controllers/only_thruster_allocator.h
+[0.386s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_control/include/cola2_control/low_level_controllers/merge.h
+[0.386s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_control/include/cola2_control/low_level_controllers/request.h
+[0.386s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_control/include/cola2_control/low_level_controllers/only_thrusters_controller.h
+[0.386s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_control/include/cola2_control/low_level_controllers/ndof_controller.h
+[0.387s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_control/include/cola2_control/low_level_controllers/controller_base.h
+[0.387s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_control/include/cola2_control/low_level_controllers/pid.h
+[0.387s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_control/include/cola2_control/controllers
+[0.387s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_control/include/cola2_control/controllers/types.h
+[0.387s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_control/include/cola2_control/controllers/anchor.h
+[0.387s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_control/include/cola2_control/controllers/section.h
+[0.387s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_control/include/cola2_control/controllers/holonomic_keep_position.h
+[0.387s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_control/share/cola2_control/cfg
+[0.387s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_control/share/cola2_control/cfg/controller.cfg
+[0.387s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_control/share/cola2_control/config
+[0.388s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_control/share/cola2_control/config/logitech_fx10_to_teleoperation.yaml
+[0.388s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_control/share/cola2_control/config/teleoperation.yaml
+[0.388s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_control/share/cola2_control/config/captain.yaml
+[0.388s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_control/share/cola2_control/config/pilot.yaml
+[0.388s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_control/share/cola2_control/config/controller.yaml
+[0.388s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_control/share/cola2_control/launch
+[0.388s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_control/share/cola2_control/launch/control.launch.py
+[0.388s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_control/share/cola2_control/environment/pythonpath.sh
+[0.388s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_control/share/cola2_control/environment/pythonpath.dsv
+[0.388s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_control/local/lib/python3.10/dist-packages/cola2_control-24.1.4-py3.10.egg-info
+[0.388s] -- Installing: /home/mazen/mini_girona/install/cola2_control/local/lib/python3.10/dist-packages/cola2_control-24.1.4-py3.10.egg-info/top_level.txt
+[0.388s] -- Installing: /home/mazen/mini_girona/install/cola2_control/local/lib/python3.10/dist-packages/cola2_control-24.1.4-py3.10.egg-info/PKG-INFO
+[0.388s] -- Installing: /home/mazen/mini_girona/install/cola2_control/local/lib/python3.10/dist-packages/cola2_control-24.1.4-py3.10.egg-info/dependency_links.txt
+[0.388s] -- Installing: /home/mazen/mini_girona/install/cola2_control/local/lib/python3.10/dist-packages/cola2_control-24.1.4-py3.10.egg-info/SOURCES.txt
+[0.388s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_control/local/lib/python3.10/dist-packages/cola2_control
+[0.388s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_control/local/lib/python3.10/dist-packages/cola2_control/joystickbase.py
+[0.388s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_control/local/lib/python3.10/dist-packages/cola2_control/__init__.py
+[0.417s] Listing '/home/mazen/mini_girona/install/cola2_control/local/lib/python3.10/dist-packages/cola2_control'...
+[0.421s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_control/lib/cola2_control/logitech_fx10_to_teleoperation_node.py
+[0.421s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_control/share/ament_index/resource_index/package_run_dependencies/cola2_control
+[0.421s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_control/share/ament_index/resource_index/parent_prefix_path/cola2_control
+[0.422s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_control/share/cola2_control/environment/ament_prefix_path.sh
+[0.422s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_control/share/cola2_control/environment/ament_prefix_path.dsv
+[0.422s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_control/share/cola2_control/environment/path.sh
+[0.422s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_control/share/cola2_control/environment/path.dsv
+[0.422s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_control/share/cola2_control/local_setup.bash
+[0.422s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_control/share/cola2_control/local_setup.sh
+[0.422s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_control/share/cola2_control/local_setup.zsh
+[0.422s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_control/share/cola2_control/local_setup.dsv
+[0.422s] -- Installing: /home/mazen/mini_girona/install/cola2_control/share/cola2_control/package.dsv
+[0.422s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_control/share/ament_index/resource_index/packages/cola2_control
+[0.423s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_control/share/cola2_control/cmake/cola2_controlConfig.cmake
+[0.423s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_control/share/cola2_control/cmake/cola2_controlConfig-version.cmake
+[0.423s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_control/share/cola2_control/package.xml
+[0.424s] Invoked command in '/home/mazen/mini_girona/build/cola2_control' returned '0': CMAKE_PREFIX_PATH=/home/mazen/mini_girona/install/cola2_lib_ros:/home/mazen/mini_girona/install/cola2_msgs:/home/mazen/mini_girona/install/cola2_nav:/home/mazen/mini_girona/install/minigirona_stonefish:/home/mazen/mini_girona/install/stonefish_ros2:/home/mazen/mini_girona/install/cola2_minigirona:/home/mazen/mini_girona/install/minigirona_description:/home/mazen/mini_girona/install/cola2_control:/opt/ros/humble LD_LIBRARY_PATH=/home/mazen/mini_girona/install/cola2_lib_ros/lib:/home/mazen/mini_girona/install/cola2_msgs/lib:/home/mazen/mini_girona/install/stonefish_ros2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/mazen/mini_girona/build/cola2_control

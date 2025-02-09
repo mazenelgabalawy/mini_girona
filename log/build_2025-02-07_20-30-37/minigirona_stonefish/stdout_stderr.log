@@ -1,0 +1,45 @@
+[35m[1mConsolidate compiler generated dependencies of target minigirona_stonefish_node[0m
+[100%] Built target minigirona_stonefish_node
+-- Install configuration: ""
+-- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/lib/minigirona_stonefish/minigirona_stonefish_node
+-- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/data
+-- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/data/pool
+-- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/data/pool/cirs_tank.obj
+-- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/data/minigirona
+-- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/data/minigirona/upper_left.png
+-- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/data/minigirona/vis_bosch350.obj
+-- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/data/minigirona/vis_thruster.mtl
+-- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/data/minigirona/lower_map.png
+-- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/data/minigirona/phy_cylinder_upper.obj
+-- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/data/minigirona/phy_bosch350.obj
+-- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/data/minigirona/vis_cylinder_ul.obj
+-- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/data/minigirona/phy_bosch200.obj
+-- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/data/minigirona/propeller.obj
+-- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/data/minigirona/vis_thruster.obj
+-- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/data/minigirona/vis_cylinder_ur.obj
+-- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/data/minigirona/vis_cylinder_bottom.obj
+-- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/data/minigirona/Phy_Cylinder_Bottom.obj
+-- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/data/minigirona/upper_right.png
+-- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/data/minigirona/vis_bosch200.obj
+-- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/data/minigirona/propeller.mtl
+-- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/data/minigirona/phy_thruster.obj
+-- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/launch
+-- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/launch/minigirona_simulation.launch.py
+-- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/scenarios
+-- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/scenarios/minigirona_tank.scn
+-- Installing: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/scenarios/minigirona.scn
+-- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/ament_index/resource_index/package_run_dependencies/minigirona_stonefish
+-- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/ament_index/resource_index/parent_prefix_path/minigirona_stonefish
+-- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/environment/ament_prefix_path.sh
+-- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/environment/path.sh
+-- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/environment/path.dsv
+-- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/local_setup.bash
+-- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/local_setup.sh
+-- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/local_setup.zsh
+-- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/local_setup.dsv
+-- Installing: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/package.dsv
+-- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/ament_index/resource_index/packages/minigirona_stonefish
+-- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/cmake/minigirona_stonefishConfig.cmake
+-- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/cmake/minigirona_stonefishConfig-version.cmake
+-- Up-to-date: /home/mazen/mini_girona/install/minigirona_stonefish/share/minigirona_stonefish/package.xml

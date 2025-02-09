@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-aa2fc45146e609a821fd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cola2_nav",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cola2_nav::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cola2_nav-9fa3d1fb5bd1a9256139.json",
+					"name" : "cola2_nav",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cola2_nav_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cola2_nav_uninstall-30f953055b4d54bbe045.json",
+					"name" : "cola2_nav_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navigator_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navigator_node-7522e4e4811c4c4e464f.json",
+					"name" : "navigator_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navigator_position_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navigator_position_node-5c6df84852b6608cfb1a.json",
+					"name" : "navigator_position_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navigator_surface_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navigator_surface_node-2603004c4ae31e444dc1.json",
+					"name" : "navigator_surface_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-d0217f395c29db3d31bf.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/mazen/mini_girona/build/cola2_nav",
+		"source" : "/home/mazen/mini_girona/src/cola2_nav"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,10 @@
+/home/mazen/mini_girona/build/minigirona_stonefish/CMakeFiles/uninstall.dir
+/home/mazen/mini_girona/build/minigirona_stonefish/CMakeFiles/minigirona_stonefish_uninstall.dir
+/home/mazen/mini_girona/build/minigirona_stonefish/CMakeFiles/minigirona_stonefish_node.dir
+/home/mazen/mini_girona/build/minigirona_stonefish/CMakeFiles/test.dir
+/home/mazen/mini_girona/build/minigirona_stonefish/CMakeFiles/edit_cache.dir
+/home/mazen/mini_girona/build/minigirona_stonefish/CMakeFiles/rebuild_cache.dir
+/home/mazen/mini_girona/build/minigirona_stonefish/CMakeFiles/list_install_components.dir
+/home/mazen/mini_girona/build/minigirona_stonefish/CMakeFiles/install.dir
+/home/mazen/mini_girona/build/minigirona_stonefish/CMakeFiles/install/local.dir
+/home/mazen/mini_girona/build/minigirona_stonefish/CMakeFiles/install/strip.dir

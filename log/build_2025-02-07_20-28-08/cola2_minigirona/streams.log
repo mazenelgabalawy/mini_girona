@@ -1,0 +1,77 @@
+[0.014s] Invoking command in '/home/mazen/mini_girona/build/cola2_minigirona': CMAKE_PREFIX_PATH=/home/mazen/mini_girona/install/minigirona_description:/home/mazen/mini_girona/install/cola2_lib_ros:/home/mazen/mini_girona/install/cola2_msgs:/home/mazen/mini_girona/install/cola2_nav:/home/mazen/mini_girona/install/minigirona_stonefish:/home/mazen/mini_girona/install/stonefish_ros2:/home/mazen/mini_girona/install/cola2_minigirona:/home/mazen/mini_girona/install/cola2_control:/opt/ros/humble LD_LIBRARY_PATH=/home/mazen/mini_girona/install/cola2_lib_ros/lib:/home/mazen/mini_girona/install/cola2_msgs/lib:/home/mazen/mini_girona/install/stonefish_ros2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/mazen/mini_girona/build/cola2_minigirona -- -j12 -l12
+[0.047s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.179s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.208s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.210s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.216s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.227s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.241s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.273s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.275s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.367s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.414s] -- Found rosbridge_server: 2.0.0 (/opt/ros/humble/share/rosbridge_server/cmake)
+[0.414s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.442s] -- Found tf2: 0.25.11 (/opt/ros/humble/share/tf2/cmake)
+[0.445s] -- Found joy: 3.3.0 (/opt/ros/humble/share/joy/cmake)
+[0.449s] -- Found rviz2: 11.2.16 (/opt/ros/humble/share/rviz2/cmake)
+[0.449s] -- Found diagnostic_msgs: 4.2.4 (/opt/ros/humble/share/diagnostic_msgs/cmake)
+[0.461s] -- Found topic_tools: 1.1.1 (/opt/ros/humble/share/topic_tools/cmake)
+[0.494s] -- Found minigirona_description: 24.1.0 (/home/mazen/mini_girona/install/minigirona_description/share/minigirona_description/cmake)
+[0.556s] -- Configuring done
+[0.560s] -- Generating done
+[0.562s] -- Build files have been written to: /home/mazen/mini_girona/build/cola2_minigirona
+[0.589s] Invoked command in '/home/mazen/mini_girona/build/cola2_minigirona' returned '0': CMAKE_PREFIX_PATH=/home/mazen/mini_girona/install/minigirona_description:/home/mazen/mini_girona/install/cola2_lib_ros:/home/mazen/mini_girona/install/cola2_msgs:/home/mazen/mini_girona/install/cola2_nav:/home/mazen/mini_girona/install/minigirona_stonefish:/home/mazen/mini_girona/install/stonefish_ros2:/home/mazen/mini_girona/install/cola2_minigirona:/home/mazen/mini_girona/install/cola2_control:/opt/ros/humble LD_LIBRARY_PATH=/home/mazen/mini_girona/install/cola2_lib_ros/lib:/home/mazen/mini_girona/install/cola2_msgs/lib:/home/mazen/mini_girona/install/stonefish_ros2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/mazen/mini_girona/build/cola2_minigirona -- -j12 -l12
+[0.590s] Invoking command in '/home/mazen/mini_girona/build/cola2_minigirona': CMAKE_PREFIX_PATH=/home/mazen/mini_girona/install/minigirona_description:/home/mazen/mini_girona/install/cola2_lib_ros:/home/mazen/mini_girona/install/cola2_msgs:/home/mazen/mini_girona/install/cola2_nav:/home/mazen/mini_girona/install/minigirona_stonefish:/home/mazen/mini_girona/install/stonefish_ros2:/home/mazen/mini_girona/install/cola2_minigirona:/home/mazen/mini_girona/install/cola2_control:/opt/ros/humble LD_LIBRARY_PATH=/home/mazen/mini_girona/install/cola2_lib_ros/lib:/home/mazen/mini_girona/install/cola2_msgs/lib:/home/mazen/mini_girona/install/stonefish_ros2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/mazen/mini_girona/build/cola2_minigirona
+[0.597s] -- Install configuration: ""
+[0.598s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_minigirona/share/cola2_minigirona/config
+[0.598s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_minigirona/share/cola2_minigirona/config/logitech_fx10_to_teleoperation.yaml
+[0.598s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_minigirona/share/cola2_minigirona/config/default_param_handler.yaml
+[0.598s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_minigirona/share/cola2_minigirona/config/teleoperation.yaml
+[0.598s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_minigirona/share/cola2_minigirona/config/diagnostic_aggregator.yaml
+[0.598s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_minigirona/share/cola2_minigirona/config/captain.yaml
+[0.598s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_minigirona/share/cola2_minigirona/config/virtual_cage.yaml
+[0.599s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_minigirona/share/cola2_minigirona/config/mission_reporter.yaml
+[0.599s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_minigirona/share/cola2_minigirona/config/navigator.yaml
+[0.599s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_minigirona/share/cola2_minigirona/config/dynamics.yaml
+[0.599s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_minigirona/share/cola2_minigirona/config/pilot.yaml
+[0.599s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_minigirona/share/cola2_minigirona/config/controller.yaml
+[0.599s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_minigirona/share/cola2_minigirona/launch
+[0.599s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_minigirona/share/cola2_minigirona/launch/teleoperation.launch.py
+[0.599s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_minigirona/share/cola2_minigirona/launch/sim_start.launch.py
+[0.600s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_minigirona/share/cola2_minigirona/launch/sim_core.launch.py
+[0.600s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_minigirona/share/cola2_minigirona/launch/start.launch.py
+[0.600s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_minigirona/share/cola2_minigirona/launch/core.launch.py
+[0.600s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_minigirona/share/cola2_minigirona/missions
+[0.600s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_minigirona/share/cola2_minigirona/missions/section_test.xml
+[0.600s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_minigirona/share/cola2_minigirona/missions/pool_test.xml
+[0.600s] -- Up-to-date: /home/mazen/mini_girona/install/cola2_minigirona/share/cola2_minigirona/missions/default_mission.xml
+[0.600s] -- Installing: /home/mazen/mini_girona/install/cola2_minigirona/share/cola2_minigirona/sim_config
+[0.601s] -- Installing: /home/mazen/mini_girona/install/cola2_minigirona/share/cola2_minigirona/sim_config/logitech_fx10_to_teleoperation.yaml
+[0.601s] -- Installing: /home/mazen/mini_girona/install/cola2_minigirona/share/cola2_minigirona/sim_config/sim_auv_nav_sensors.yaml
+[0.601s] -- Installing: /home/mazen/mini_girona/install/cola2_minigirona/share/cola2_minigirona/sim_config/default_param_handler.yaml
+[0.601s] -- Installing: /home/mazen/mini_girona/install/cola2_minigirona/share/cola2_minigirona/sim_config/teleoperation.yaml
+[0.601s] -- Installing: /home/mazen/mini_girona/install/cola2_minigirona/share/cola2_minigirona/sim_config/diagnostic_aggregator.yaml
+[0.601s] -- Installing: /home/mazen/mini_girona/install/cola2_minigirona/share/cola2_minigirona/sim_config/captain.yaml
+[0.601s] -- Installing: /home/mazen/mini_girona/install/cola2_minigirona/share/cola2_minigirona/sim_config/virtual_cage.yaml
+[0.601s] -- Installing: /home/mazen/mini_girona/install/cola2_minigirona/share/cola2_minigirona/sim_config/mission_reporter.yaml
+[0.602s] -- Installing: /home/mazen/mini_girona/install/cola2_minigirona/share/cola2_minigirona/sim_config/navigator.yaml
+[0.602s] -- Installing: /home/mazen/mini_girona/install/cola2_minigirona/share/cola2_minigirona/sim_config/dynamics.yaml
+[0.602s] -- Installing: /home/mazen/mini_girona/install/cola2_minigirona/share/cola2_minigirona/sim_config/pilot.yaml
+[0.602s] -- Installing: /home/mazen/mini_girona/install/cola2_minigirona/share/cola2_minigirona/sim_config/sim_internal_sensors.yaml
+[0.602s] -- Installing: /home/mazen/mini_girona/install/cola2_minigirona/share/cola2_minigirona/sim_config/controller.yaml
+[0.602s] -- Installing: /home/mazen/mini_girona/install/cola2_minigirona/share/ament_index/resource_index/package_run_dependencies/cola2_minigirona
+[0.602s] -- Installing: /home/mazen/mini_girona/install/cola2_minigirona/share/ament_index/resource_index/parent_prefix_path/cola2_minigirona
+[0.602s] -- Installing: /home/mazen/mini_girona/install/cola2_minigirona/share/cola2_minigirona/environment/ament_prefix_path.sh
+[0.602s] -- Installing: /home/mazen/mini_girona/install/cola2_minigirona/share/cola2_minigirona/environment/ament_prefix_path.dsv
+[0.602s] -- Installing: /home/mazen/mini_girona/install/cola2_minigirona/share/cola2_minigirona/environment/path.sh
+[0.603s] -- Installing: /home/mazen/mini_girona/install/cola2_minigirona/share/cola2_minigirona/environment/path.dsv
+[0.603s] -- Installing: /home/mazen/mini_girona/install/cola2_minigirona/share/cola2_minigirona/local_setup.bash
+[0.603s] -- Installing: /home/mazen/mini_girona/install/cola2_minigirona/share/cola2_minigirona/local_setup.sh
+[0.603s] -- Installing: /home/mazen/mini_girona/install/cola2_minigirona/share/cola2_minigirona/local_setup.zsh
+[0.604s] -- Installing: /home/mazen/mini_girona/install/cola2_minigirona/share/cola2_minigirona/local_setup.dsv
+[0.604s] -- Installing: /home/mazen/mini_girona/install/cola2_minigirona/share/cola2_minigirona/package.dsv
+[0.604s] -- Installing: /home/mazen/mini_girona/install/cola2_minigirona/share/ament_index/resource_index/packages/cola2_minigirona
+[0.605s] -- Installing: /home/mazen/mini_girona/install/cola2_minigirona/share/cola2_minigirona/cmake/cola2_minigironaConfig.cmake
+[0.605s] -- Installing: /home/mazen/mini_girona/install/cola2_minigirona/share/cola2_minigirona/cmake/cola2_minigironaConfig-version.cmake
+[0.605s] -- Installing: /home/mazen/mini_girona/install/cola2_minigirona/share/cola2_minigirona/package.xml
+[0.605s] Invoked command in '/home/mazen/mini_girona/build/cola2_minigirona' returned '0': CMAKE_PREFIX_PATH=/home/mazen/mini_girona/install/minigirona_description:/home/mazen/mini_girona/install/cola2_lib_ros:/home/mazen/mini_girona/install/cola2_msgs:/home/mazen/mini_girona/install/cola2_nav:/home/mazen/mini_girona/install/minigirona_stonefish:/home/mazen/mini_girona/install/stonefish_ros2:/home/mazen/mini_girona/install/cola2_minigirona:/home/mazen/mini_girona/install/cola2_control:/opt/ros/humble LD_LIBRARY_PATH=/home/mazen/mini_girona/install/cola2_lib_ros/lib:/home/mazen/mini_girona/install/cola2_msgs/lib:/home/mazen/mini_girona/install/stonefish_ros2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/mazen/mini_girona/build/cola2_minigirona

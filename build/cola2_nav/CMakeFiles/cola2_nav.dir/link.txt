@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcola2_nav.a CMakeFiles/cola2_nav.dir/src/cola2_nav/ekf_base.cpp.o CMakeFiles/cola2_nav.dir/src/cola2_nav/ekf_base_ros2.cpp.o CMakeFiles/cola2_nav.dir/src/cola2_nav/transformations.cpp.o
+/usr/bin/ranlib libcola2_nav.a

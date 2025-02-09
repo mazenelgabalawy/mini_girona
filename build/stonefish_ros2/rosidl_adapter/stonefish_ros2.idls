@@ -1,0 +1,11 @@
+/home/mazen/mini_girona/build/stonefish_ros2/rosidl_adapter/stonefish_ros2:msg/Int32Stamped.idl
+/home/mazen/mini_girona/build/stonefish_ros2/rosidl_adapter/stonefish_ros2:msg/BeaconInfo.idl
+/home/mazen/mini_girona/build/stonefish_ros2/rosidl_adapter/stonefish_ros2:msg/NEDPose.idl
+/home/mazen/mini_girona/build/stonefish_ros2/rosidl_adapter/stonefish_ros2:msg/INS.idl
+/home/mazen/mini_girona/build/stonefish_ros2/rosidl_adapter/stonefish_ros2:msg/DVLBeam.idl
+/home/mazen/mini_girona/build/stonefish_ros2/rosidl_adapter/stonefish_ros2:msg/DVL.idl
+/home/mazen/mini_girona/build/stonefish_ros2/rosidl_adapter/stonefish_ros2:msg/ThrusterState.idl
+/home/mazen/mini_girona/build/stonefish_ros2/rosidl_adapter/stonefish_ros2:msg/DebugPhysics.idl
+/home/mazen/mini_girona/build/stonefish_ros2/rosidl_adapter/stonefish_ros2:srv/SonarSettings.idl
+/home/mazen/mini_girona/build/stonefish_ros2/rosidl_adapter/stonefish_ros2:srv/SonarSettings2.idl
+/home/mazen/mini_girona/build/stonefish_ros2/rosidl_adapter/stonefish_ros2:srv/Respawn.idl

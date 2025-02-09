@@ -1,0 +1,133 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-9ff3ea6901cbf778ac11.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cola2_control",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_cola2_control_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_cola2_control_egg-c6a496c082ae96fc185a.json",
+					"name" : "ament_cmake_python_build_cola2_control_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_cola2_control::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_cola2_control-f6dca103eca055ef93ee.json",
+					"name" : "ament_cmake_python_copy_cola2_control",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "captain_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-captain_node-41c7de45fd9d8242d478.json",
+					"name" : "captain_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cola2_control::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cola2_control-4e107034885ae181328c.json",
+					"name" : "cola2_control",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cola2_control_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cola2_control_uninstall-82fd2674c5230b2c2bb1.json",
+					"name" : "cola2_control_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "controller_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-controller_node-710cad5ba432c634d465.json",
+					"name" : "controller_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pilot_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pilot_node-59f4eb1e854dadc6f29b.json",
+					"name" : "pilot_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "teleoperation_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-teleoperation_node-03c4436c6e3d86431cc1.json",
+					"name" : "teleoperation_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-7a5c2dbaa023bd4e4893.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/mazen/mini_girona/build/cola2_control",
+		"source" : "/home/mazen/mini_girona/src/cola2_control"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+1336cf696df2989ec4e8bf5d23929883 CMakeFiles/cola2_minigirona_uninstall

@@ -1,0 +1,10 @@
+/home/mazen/mini_girona/build/cola2_lib_ros/CMakeFiles/uninstall.dir
+/home/mazen/mini_girona/build/cola2_lib_ros/CMakeFiles/cola2_lib_ros_uninstall.dir
+/home/mazen/mini_girona/build/cola2_lib_ros/CMakeFiles/cola2_ros.dir
+/home/mazen/mini_girona/build/cola2_lib_ros/CMakeFiles/test.dir
+/home/mazen/mini_girona/build/cola2_lib_ros/CMakeFiles/edit_cache.dir
+/home/mazen/mini_girona/build/cola2_lib_ros/CMakeFiles/rebuild_cache.dir
+/home/mazen/mini_girona/build/cola2_lib_ros/CMakeFiles/list_install_components.dir
+/home/mazen/mini_girona/build/cola2_lib_ros/CMakeFiles/install.dir
+/home/mazen/mini_girona/build/cola2_lib_ros/CMakeFiles/install/local.dir
+/home/mazen/mini_girona/build/cola2_lib_ros/CMakeFiles/install/strip.dir

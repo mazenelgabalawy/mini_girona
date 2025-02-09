@@ -1,0 +1,1207 @@
+[0.000000] (-) TimerEvent: {}
+[0.000453] (-) JobUnselected: {'identifier': 'cola2_control'}
+[0.000496] (-) JobUnselected: {'identifier': 'cola2_lib_ros'}
+[0.000697] (-) JobUnselected: {'identifier': 'cola2_msgs'}
+[0.000911] (stonefish_ros2) JobQueued: {'identifier': 'stonefish_ros2', 'dependencies': OrderedDict()}
+[0.000941] (stonefish_ros2) JobStarted: {'identifier': 'stonefish_ros2'}
+[0.007465] (stonefish_ros2) JobProgress: {'identifier': 'stonefish_ros2', 'progress': 'cmake'}
+[0.007948] (stonefish_ros2) Command: {'cmd': ['/usr/bin/cmake', '/home/mazen/mini_girona/src/stonefish_ros2', '-DCMAKE_INSTALL_PREFIX=/home/mazen/mini_girona/install/stonefish_ros2'], 'cwd': '/home/mazen/mini_girona/build/stonefish_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'mazen'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mazen/mini_girona/install/stonefish_ros2/lib:/home/mazen/mini_girona/install/cola2_lib_ros/lib:/home/mazen/mini_girona/install/cola2_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mazen'), ('OLDPWD', '/home/mazen/mini_girona/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('MANAGERPID', '2120'), ('SYSTEMD_EXEC_PID', '2676'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3900'), ('COLCON_PREFIX_PATH', '/home/mazen/mini_girona/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'mazen'), ('JOURNAL_STREAM', '8:18106'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mazen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mazen:@/tmp/.ICE-unix/2502,unix/mazen:/tmp/.ICE-unix/2502'), ('INVOCATION_ID', 'fec39daef7464ca49f851e22b9dd4418'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mazen/mini_girona/install/cola2_nav:/home/mazen/mini_girona/install/minigirona_stonefish:/home/mazen/mini_girona/install/stonefish_ros2:/home/mazen/mini_girona/install/cola2_minigirona:/home/mazen/mini_girona/install/minigirona_description:/home/mazen/mini_girona/install/cola2_control:/home/mazen/mini_girona/install/cola2_lib_ros:/home/mazen/mini_girona/install/cola2_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:922fd7c1-49f3-44a4-8874-2ba4ff057ece'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mazen/mini_girona/build/stonefish_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages:/home/mazen/mini_girona/install/cola2_control/local/lib/python3.10/dist-packages:/home/mazen/mini_girona/install/cola2_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mazen/mini_girona/install/cola2_nav:/home/mazen/mini_girona/install/minigirona_stonefish:/home/mazen/mini_girona/install/stonefish_ros2:/home/mazen/mini_girona/install/cola2_minigirona:/home/mazen/mini_girona/install/minigirona_description:/home/mazen/mini_girona/install/cola2_control:/home/mazen/mini_girona/install/cola2_lib_ros:/home/mazen/mini_girona/install/cola2_msgs:/opt/ros/humble')]), 'shell': False}
+[0.059491] (stonefish_ros2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.100045] (-) TimerEvent: {}
+[0.111792] (stonefish_ros2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.118344] (stonefish_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.181830] (stonefish_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.188840] (stonefish_ros2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.189091] (stonefish_ros2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.189431] (stonefish_ros2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.192156] (stonefish_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.200148] (-) TimerEvent: {}
+[0.266722] (stonefish_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.273867] (stonefish_ros2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.274136] (stonefish_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.274539] (stonefish_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.276500] (stonefish_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300263] (-) TimerEvent: {}
+[0.400497] (-) TimerEvent: {}
+[0.409837] (stonefish_ros2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.486149] (stonefish_ros2) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.500599] (-) TimerEvent: {}
+[0.520591] (stonefish_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.524808] (stonefish_ros2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.532128] (stonefish_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.542861] (stonefish_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.557093] (stonefish_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.595252] (stonefish_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.597507] (stonefish_ros2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.600710] (-) TimerEvent: {}
+[0.670470] (stonefish_ros2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.692234] (stonefish_ros2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.700815] (-) TimerEvent: {}
+[0.725375] (stonefish_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.732605] (stonefish_ros2) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.800920] (-) TimerEvent: {}
+[0.802893] (stonefish_ros2) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.803484] (stonefish_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.901074] (-) TimerEvent: {}
+[0.911961] (stonefish_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.914082] (stonefish_ros2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.969874] (stonefish_ros2) StdoutLine: {'line': b'-- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[0.979068] (stonefish_ros2) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.991709] (stonefish_ros2) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.001163] (-) TimerEvent: {}
+[1.008345] (stonefish_ros2) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.025265] (stonefish_ros2) StdoutLine: {'line': b'-- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[1.045466] (stonefish_ros2) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.054169] (stonefish_ros2) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[1.087829] (stonefish_ros2) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[1.099041] (stonefish_ros2) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[1.101287] (-) TimerEvent: {}
+[1.127528] (stonefish_ros2) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[1.127691] (stonefish_ros2) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.157187] (stonefish_ros2) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[1.168857] (stonefish_ros2) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[1.201420] (-) TimerEvent: {}
+[1.202049] (stonefish_ros2) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[1.202230] (stonefish_ros2) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[1.301549] (-) TimerEvent: {}
+[1.401859] (-) TimerEvent: {}
+[1.502115] (-) TimerEvent: {}
+[1.602385] (-) TimerEvent: {}
+[1.702693] (-) TimerEvent: {}
+[1.802968] (-) TimerEvent: {}
+[1.903253] (-) TimerEvent: {}
+[2.003534] (-) TimerEvent: {}
+[2.103779] (-) TimerEvent: {}
+[2.122850] (stonefish_ros2) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[2.135566] (stonefish_ros2) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[2.167057] (stonefish_ros2) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[2.167965] (stonefish_ros2) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.203866] (-) TimerEvent: {}
+[2.216157] (stonefish_ros2) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.303987] (-) TimerEvent: {}
+[2.350287] (stonefish_ros2) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[2.356059] (stonefish_ros2) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.361844] (stonefish_ros2) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.404101] (-) TimerEvent: {}
+[2.489607] (stonefish_ros2) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[2.504204] (-) TimerEvent: {}
+[2.604426] (-) TimerEvent: {}
+[2.620758] (stonefish_ros2) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.704552] (-) TimerEvent: {}
+[2.746309] (stonefish_ros2) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[2.746992] (stonefish_ros2) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[2.747668] (stonefish_ros2) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[2.748340] (stonefish_ros2) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[2.749050] (stonefish_ros2) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[2.749738] (stonefish_ros2) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[2.750093] (stonefish_ros2) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[2.750417] (stonefish_ros2) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[2.751067] (stonefish_ros2) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[2.751857] (stonefish_ros2) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[2.752612] (stonefish_ros2) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[2.753307] (stonefish_ros2) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[2.754109] (stonefish_ros2) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[2.754897] (stonefish_ros2) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[2.755652] (stonefish_ros2) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[2.756419] (stonefish_ros2) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[2.757243] (stonefish_ros2) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[2.758052] (stonefish_ros2) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[2.758880] (stonefish_ros2) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[2.759595] (stonefish_ros2) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[2.760296] (stonefish_ros2) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[2.760604] (stonefish_ros2) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[2.760973] (stonefish_ros2) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[2.761670] (stonefish_ros2) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[2.762438] (stonefish_ros2) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[2.765102] (stonefish_ros2) StdoutLine: {'line': b'-- Found image_transport: 3.1.10 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[2.788217] (stonefish_ros2) StdoutLine: {'line': b'-- Found tf2: 0.25.11 (/opt/ros/humble/share/tf2/cmake)\n'}
+[2.792173] (stonefish_ros2) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.11 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[2.804655] (-) TimerEvent: {}
+[2.869668] (stonefish_ros2) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   \n'}
+[2.874718] (stonefish_ros2) StdoutLine: {'line': b'-- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") \n'}
+[2.904777] (-) TimerEvent: {}
+[3.005052] (-) TimerEvent: {}
+[3.099126] (stonefish_ros2) StdoutLine: {'line': b'-- Found OpenMP_C: -fopenmp (found version "4.5") \n'}
+[3.105152] (-) TimerEvent: {}
+[3.185875] (stonefish_ros2) StdoutLine: {'line': b'-- Found OpenMP_CXX: -fopenmp (found version "4.5") \n'}
+[3.186135] (stonefish_ros2) StdoutLine: {'line': b'-- Found OpenMP: TRUE (found version "4.5")  \n'}
+[3.205269] (-) TimerEvent: {}
+[3.305502] (-) TimerEvent: {}
+[3.405719] (-) TimerEvent: {}
+[3.505948] (-) TimerEvent: {}
+[3.512026] (stonefish_ros2) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[3.606071] (-) TimerEvent: {}
+[3.706306] (-) TimerEvent: {}
+[3.806551] (-) TimerEvent: {}
+[3.898768] (stonefish_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.906656] (-) TimerEvent: {}
+[4.006828] (-) TimerEvent: {}
+[4.049028] (stonefish_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.070015] (stonefish_ros2) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[4.071272] (stonefish_ros2) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[4.094272] (stonefish_ros2) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[4.094470] (stonefish_ros2) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.094528] (stonefish_ros2) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[4.094581] (stonefish_ros2) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[4.106935] (-) TimerEvent: {}
+[4.113672] (stonefish_ros2) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[4.178147] (stonefish_ros2) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:44 (find_package):\n'}
+[4.178285] (stonefish_ros2) StderrLine: {'line': b'  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.\n'}
+[4.178342] (stonefish_ros2) StderrLine: {'line': b'  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy\n'}
+[4.178392] (stonefish_ros2) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[4.178441] (stonefish_ros2) StderrLine: {'line': b'\n'}
+[4.178488] (stonefish_ros2) StderrLine: {'line': b'  CMake variable PCL_ROOT is set to:\n'}
+[4.178536] (stonefish_ros2) StderrLine: {'line': b'\n'}
+[4.178582] (stonefish_ros2) StderrLine: {'line': b'    /usr\n'}
+[4.178627] (stonefish_ros2) StderrLine: {'line': b'\n'}
+[4.178679] (stonefish_ros2) StderrLine: {'line': b'  For compatibility, CMake is ignoring the variable.\n'}
+[4.178730] (stonefish_ros2) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[4.178776] (stonefish_ros2) StderrLine: {'line': b'\x1b[0m\n'}
+[4.199401] (stonefish_ros2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.207038] (-) TimerEvent: {}
+[4.218538] (stonefish_ros2) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.219232] (stonefish_ros2) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/mazen/mini_girona/src/stonefish_ros2/include>\n'}
+[4.219317] (stonefish_ros2) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.220243] (stonefish_ros2) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[4.221680] (stonefish_ros2) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.222662] (stonefish_ros2) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[4.227054] (stonefish_ros2) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.227139] (stonefish_ros2) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.228035] (stonefish_ros2) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.230562] (stonefish_ros2) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.307167] (-) TimerEvent: {}
+[4.363524] (stonefish_ros2) StdoutLine: {'line': b'-- Generating done\n'}
+[4.391792] (stonefish_ros2) StdoutLine: {'line': b'-- Build files have been written to: /home/mazen/mini_girona/build/stonefish_ros2\n'}
+[4.407294] (-) TimerEvent: {}
+[4.410806] (stonefish_ros2) CommandEnded: {'returncode': 0}
+[4.411536] (stonefish_ros2) JobProgress: {'identifier': 'stonefish_ros2', 'progress': 'build'}
+[4.412960] (stonefish_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mazen/mini_girona/build/stonefish_ros2', '--', '-j12', '-l12'], 'cwd': '/home/mazen/mini_girona/build/stonefish_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'mazen'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mazen/mini_girona/install/stonefish_ros2/lib:/home/mazen/mini_girona/install/cola2_lib_ros/lib:/home/mazen/mini_girona/install/cola2_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mazen'), ('OLDPWD', '/home/mazen/mini_girona/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('MANAGERPID', '2120'), ('SYSTEMD_EXEC_PID', '2676'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3900'), ('COLCON_PREFIX_PATH', '/home/mazen/mini_girona/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'mazen'), ('JOURNAL_STREAM', '8:18106'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mazen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mazen:@/tmp/.ICE-unix/2502,unix/mazen:/tmp/.ICE-unix/2502'), ('INVOCATION_ID', 'fec39daef7464ca49f851e22b9dd4418'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mazen/mini_girona/install/cola2_nav:/home/mazen/mini_girona/install/minigirona_stonefish:/home/mazen/mini_girona/install/stonefish_ros2:/home/mazen/mini_girona/install/cola2_minigirona:/home/mazen/mini_girona/install/minigirona_description:/home/mazen/mini_girona/install/cola2_control:/home/mazen/mini_girona/install/cola2_lib_ros:/home/mazen/mini_girona/install/cola2_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:922fd7c1-49f3-44a4-8874-2ba4ff057ece'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mazen/mini_girona/build/stonefish_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages:/home/mazen/mini_girona/install/cola2_control/local/lib/python3.10/dist-packages:/home/mazen/mini_girona/install/cola2_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mazen/mini_girona/install/cola2_nav:/home/mazen/mini_girona/install/minigirona_stonefish:/home/mazen/mini_girona/install/stonefish_ros2:/home/mazen/mini_girona/install/cola2_minigirona:/home/mazen/mini_girona/install/minigirona_description:/home/mazen/mini_girona/install/cola2_control:/home/mazen/mini_girona/install/cola2_lib_ros:/home/mazen/mini_girona/install/cola2_msgs:/opt/ros/humble')]), 'shell': False}
+[4.457008] (stonefish_ros2) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.467541] (stonefish_ros2) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.474495] (stonefish_ros2) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_stonefish_ros2\n'}
+[4.507410] (-) TimerEvent: {}
+[4.607669] (-) TimerEvent: {}
+[4.677858] (stonefish_ros2) StdoutLine: {'line': b'running egg_info\n'}
+[4.678383] (stonefish_ros2) StdoutLine: {'line': b'creating stonefish_ros2.egg-info\n'}
+[4.678554] (stonefish_ros2) StdoutLine: {'line': b'writing stonefish_ros2.egg-info/PKG-INFO\n'}
+[4.678726] (stonefish_ros2) StdoutLine: {'line': b'writing dependency_links to stonefish_ros2.egg-info/dependency_links.txt\n'}
+[4.678897] (stonefish_ros2) StdoutLine: {'line': b'writing top-level names to stonefish_ros2.egg-info/top_level.txt\n'}
+[4.679052] (stonefish_ros2) StdoutLine: {'line': b"writing manifest file 'stonefish_ros2.egg-info/SOURCES.txt'\n"}
+[4.680553] (stonefish_ros2) StdoutLine: {'line': b"reading manifest file 'stonefish_ros2.egg-info/SOURCES.txt'\n"}
+[4.681005] (stonefish_ros2) StdoutLine: {'line': b"writing manifest file 'stonefish_ros2.egg-info/SOURCES.txt'\n"}
+[4.704489] (stonefish_ros2) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_build_stonefish_ros2_egg\n'}
+[4.707730] (-) TimerEvent: {}
+[4.807949] (-) TimerEvent: {}
+[4.908189] (-) TimerEvent: {}
+[5.008428] (-) TimerEvent: {}
+[5.108678] (-) TimerEvent: {}
+[5.208921] (-) TimerEvent: {}
+[5.309156] (-) TimerEvent: {}
+[5.409720] (-) TimerEvent: {}
+[5.509787] (stonefish_ros2) StdoutLine: {'line': b'[  1%] Built target stonefish_ros2__cpp\n'}
+[5.510061] (-) TimerEvent: {}
+[5.520662] (stonefish_ros2) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.520899] (stonefish_ros2) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.520966] (stonefish_ros2) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[5.543909] (stonefish_ros2) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_generator_c.dir/rosidl_generator_c/stonefish_ros2/msg/detail/beacon_info__functions.c.o\x1b[0m\n'}
+[5.544232] (stonefish_ros2) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_generator_c.dir/rosidl_generator_c/stonefish_ros2/msg/detail/ned_pose__functions.c.o\x1b[0m\n'}
+[5.544401] (stonefish_ros2) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_generator_c.dir/rosidl_generator_c/stonefish_ros2/msg/detail/ins__functions.c.o\x1b[0m\n'}
+[5.544547] (stonefish_ros2) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_generator_c.dir/rosidl_generator_c/stonefish_ros2/msg/detail/dvl_beam__functions.c.o\x1b[0m\n'}
+[5.544706] (stonefish_ros2) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_generator_c.dir/rosidl_generator_c/stonefish_ros2/msg/detail/int32_stamped__functions.c.o\x1b[0m\n'}
+[5.544875] (stonefish_ros2) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_generator_c.dir/rosidl_generator_c/stonefish_ros2/msg/detail/debug_physics__functions.c.o\x1b[0m\n'}
+[5.545023] (stonefish_ros2) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_generator_c.dir/rosidl_generator_c/stonefish_ros2/msg/detail/dvl__functions.c.o\x1b[0m\n'}
+[5.545165] (stonefish_ros2) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_generator_c.dir/rosidl_generator_c/stonefish_ros2/msg/detail/thruster_state__functions.c.o\x1b[0m\n'}
+[5.546566] (stonefish_ros2) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_generator_c.dir/rosidl_generator_c/stonefish_ros2/srv/detail/sonar_settings__functions.c.o\x1b[0m\n'}
+[5.610178] (-) TimerEvent: {}
+[5.630483] (stonefish_ros2) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_generator_c.dir/rosidl_generator_c/stonefish_ros2/srv/detail/sonar_settings2__functions.c.o\x1b[0m\n'}
+[5.635478] (stonefish_ros2) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_generator_c.dir/rosidl_generator_c/stonefish_ros2/srv/detail/respawn__functions.c.o\x1b[0m\n'}
+[5.705056] (stonefish_ros2) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking C shared library libstonefish_ros2__rosidl_generator_c.so\x1b[0m\n'}
+[5.710287] (-) TimerEvent: {}
+[5.750169] (stonefish_ros2) StdoutLine: {'line': b'[ 14%] Built target stonefish_ros2__rosidl_generator_c\n'}
+[5.762436] (stonefish_ros2) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.762691] (stonefish_ros2) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[5.762861] (stonefish_ros2) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.810395] (-) TimerEvent: {}
+[5.910705] (-) TimerEvent: {}
+[6.011009] (-) TimerEvent: {}
+[6.111289] (-) TimerEvent: {}
+[6.211570] (-) TimerEvent: {}
+[6.311852] (-) TimerEvent: {}
+[6.403547] (stonefish_ros2) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/stonefish_ros2/msg/beacon_info__type_support.cpp.o\x1b[0m\n'}
+[6.403808] (stonefish_ros2) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/stonefish_ros2/msg/int32_stamped__type_support.cpp.o\x1b[0m\n'}
+[6.403958] (stonefish_ros2) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/stonefish_ros2/msg/ins__type_support.cpp.o\x1b[0m\n'}
+[6.404090] (stonefish_ros2) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/stonefish_ros2/msg/ned_pose__type_support.cpp.o\x1b[0m\n'}
+[6.404225] (stonefish_ros2) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/stonefish_ros2/msg/dvl_beam__type_support.cpp.o\x1b[0m\n'}
+[6.404362] (stonefish_ros2) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/stonefish_ros2/msg/thruster_state__type_support.cpp.o\x1b[0m\n'}
+[6.407727] (stonefish_ros2) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/stonefish_ros2/msg/dvl__type_support.cpp.o\x1b[0m\n'}
+[6.414710] (-) TimerEvent: {}
+[6.515033] (-) TimerEvent: {}
+[6.615370] (-) TimerEvent: {}
+[6.715821] (-) TimerEvent: {}
+[6.812131] (stonefish_ros2) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/stonefish_ros2/msg/int32_stamped__type_support.cpp.o\x1b[0m\n'}
+[6.815932] (-) TimerEvent: {}
+[6.872873] (stonefish_ros2) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/stonefish_ros2/msg/beacon_info__type_support.cpp.o\x1b[0m\n'}
+[6.916035] (-) TimerEvent: {}
+[6.928837] (stonefish_ros2) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/stonefish_ros2/msg/debug_physics__type_support.cpp.o\x1b[0m\n'}
+[6.929095] (stonefish_ros2) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/stonefish_ros2/msg/ned_pose__type_support.cpp.o\x1b[0m\n'}
+[6.934907] (stonefish_ros2) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/stonefish_ros2/srv/sonar_settings__type_support.cpp.o\x1b[0m\n'}
+[6.936407] (stonefish_ros2) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/stonefish_ros2/msg/ins__type_support.cpp.o\x1b[0m\n'}
+[6.943562] (stonefish_ros2) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/stonefish_ros2/msg/dvl_beam__type_support.cpp.o\x1b[0m\n'}
+[6.950849] (stonefish_ros2) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/stonefish_ros2/srv/sonar_settings2__type_support.cpp.o\x1b[0m\n'}
+[6.951815] (stonefish_ros2) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/stonefish_ros2/msg/detail/int32_stamped__type_support.cpp.o\x1b[0m\n'}
+[6.958615] (stonefish_ros2) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/stonefish_ros2/msg/dvl__type_support.cpp.o\x1b[0m\n'}
+[6.973631] (stonefish_ros2) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/stonefish_ros2/msg/detail/beacon_info__type_support.cpp.o\x1b[0m\n'}
+[6.985574] (stonefish_ros2) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/stonefish_ros2/msg/detail/ned_pose__type_support.cpp.o\x1b[0m\n'}
+[7.000806] (stonefish_ros2) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/stonefish_ros2/msg/detail/ins__type_support.cpp.o\x1b[0m\n'}
+[7.011709] (stonefish_ros2) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/stonefish_ros2/msg/detail/dvl_beam__type_support.cpp.o\x1b[0m\n'}
+[7.016145] (-) TimerEvent: {}
+[7.018316] (stonefish_ros2) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/stonefish_ros2/msg/thruster_state__type_support.cpp.o\x1b[0m\n'}
+[7.075492] (stonefish_ros2) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/stonefish_ros2/msg/debug_physics__type_support.cpp.o\x1b[0m\n'}
+[7.116247] (-) TimerEvent: {}
+[7.133774] (stonefish_ros2) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/stonefish_ros2/srv/sonar_settings__type_support.cpp.o\x1b[0m\n'}
+[7.145491] (stonefish_ros2) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/stonefish_ros2/msg/detail/dds_fastrtps/int32_stamped__type_support.cpp.o\x1b[0m\n'}
+[7.194374] (stonefish_ros2) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/stonefish_ros2/srv/sonar_settings2__type_support.cpp.o\x1b[0m\n'}
+[7.216373] (-) TimerEvent: {}
+[7.263730] (stonefish_ros2) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/stonefish_ros2/srv/respawn__type_support.cpp.o\x1b[0m\n'}
+[7.316536] (-) TimerEvent: {}
+[7.323927] (stonefish_ros2) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX shared library libstonefish_ros2__rosidl_typesupport_c.so\x1b[0m\n'}
+[7.416652] (-) TimerEvent: {}
+[7.418903] (stonefish_ros2) StdoutLine: {'line': b'[ 40%] Built target stonefish_ros2__rosidl_typesupport_c\n'}
+[7.434560] (stonefish_ros2) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/stonefish_ros2/msg/detail/dvl__type_support.cpp.o\x1b[0m\n'}
+[7.460788] (stonefish_ros2) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/stonefish_ros2/msg/detail/dds_fastrtps/beacon_info__type_support.cpp.o\x1b[0m\n'}
+[7.461064] (stonefish_ros2) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/stonefish_ros2/msg/detail/int32_stamped__type_support.c.o\x1b[0m\n'}
+[7.470396] (stonefish_ros2) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/stonefish_ros2/msg/detail/beacon_info__type_support.c.o\x1b[0m\n'}
+[7.495473] (stonefish_ros2) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/stonefish_ros2/srv/respawn__type_support.cpp.o\x1b[0m\n'}
+[7.516720] (-) TimerEvent: {}
+[7.536725] (stonefish_ros2) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/stonefish_ros2/msg/detail/thruster_state__type_support.cpp.o\x1b[0m\n'}
+[7.549359] (stonefish_ros2) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/stonefish_ros2/msg/detail/ned_pose__type_support.c.o\x1b[0m\n'}
+[7.583846] (stonefish_ros2) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/stonefish_ros2/msg/detail/int32_stamped__type_support_c.cpp.o\x1b[0m\n'}
+[7.616841] (-) TimerEvent: {}
+[7.622879] (stonefish_ros2) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/stonefish_ros2/msg/detail/ins__type_support.c.o\x1b[0m\n'}
+[7.695210] (stonefish_ros2) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/stonefish_ros2/msg/detail/dvl_beam__type_support.c.o\x1b[0m\n'}
+[7.716978] (-) TimerEvent: {}
+[7.733183] (stonefish_ros2) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/stonefish_ros2/msg/detail/beacon_info__type_support_c.cpp.o\x1b[0m\n'}
+[7.745599] (stonefish_ros2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/stonefish_ros2/msg/detail/dds_fastrtps/ned_pose__type_support.cpp.o\x1b[0m\n'}
+[7.763566] (stonefish_ros2) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/stonefish_ros2/msg/detail/ned_pose__type_support_c.cpp.o\x1b[0m\n'}
+[7.767828] (stonefish_ros2) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/stonefish_ros2/msg/detail/dvl__type_support.c.o\x1b[0m\n'}
+[7.780868] (stonefish_ros2) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/stonefish_ros2/msg/detail/ins__type_support_c.cpp.o\x1b[0m\n'}
+[7.788409] (stonefish_ros2) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/stonefish_ros2/msg/detail/dvl_beam__type_support_c.cpp.o\x1b[0m\n'}
+[7.817081] (-) TimerEvent: {}
+[7.850379] (stonefish_ros2) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/stonefish_ros2/msg/detail/thruster_state__type_support.c.o\x1b[0m\n'}
+[7.920720] (-) TimerEvent: {}
+[7.942781] (stonefish_ros2) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/stonefish_ros2/msg/detail/debug_physics__type_support.c.o\x1b[0m\n'}
+[7.945393] (stonefish_ros2) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/stonefish_ros2/msg/detail/dvl__type_support_c.cpp.o\x1b[0m\n'}
+[8.018661] (stonefish_ros2) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/stonefish_ros2/srv/detail/sonar_settings__type_support.c.o\x1b[0m\n'}
+[8.020849] (-) TimerEvent: {}
+[8.041650] (stonefish_ros2) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libstonefish_ros2__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[8.092110] (stonefish_ros2) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/stonefish_ros2/srv/detail/sonar_settings2__type_support.c.o\x1b[0m\n'}
+[8.120988] (-) TimerEvent: {}
+[8.132742] (stonefish_ros2) StdoutLine: {'line': b'[ 59%] Built target stonefish_ros2__rosidl_typesupport_cpp\n'}
+[8.145656] (stonefish_ros2) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/stonefish_ros2/msg/detail/thruster_state__type_support_c.cpp.o\x1b[0m\n'}
+[8.165309] (stonefish_ros2) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/stonefish_ros2/srv/detail/respawn__type_support.c.o\x1b[0m\n'}
+[8.221134] (-) TimerEvent: {}
+[8.242508] (stonefish_ros2) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking C shared library libstonefish_ros2__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[8.264764] (stonefish_ros2) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/stonefish_ros2/msg/detail/debug_physics__type_support.cpp.o\x1b[0m\n'}
+[8.277578] (stonefish_ros2) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/stonefish_ros2/msg/detail/dds_fastrtps/ins__type_support.cpp.o\x1b[0m\n'}
+[8.314625] (stonefish_ros2) StdoutLine: {'line': b'[ 63%] Built target stonefish_ros2__rosidl_typesupport_introspection_c\n'}
+[8.322723] (-) TimerEvent: {}
+[8.331732] (stonefish_ros2) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/stonefish_ros2/srv/detail/sonar_settings__type_support.cpp.o\x1b[0m\n'}
+[8.341798] (stonefish_ros2) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/stonefish_ros2/srv/detail/sonar_settings2__type_support.cpp.o\x1b[0m\n'}
+[8.383721] (stonefish_ros2) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/stonefish_ros2/msg/detail/debug_physics__type_support_c.cpp.o\x1b[0m\n'}
+[8.422850] (-) TimerEvent: {}
+[8.428765] (stonefish_ros2) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/stonefish_ros2/msg/detail/dds_fastrtps/dvl_beam__type_support.cpp.o\x1b[0m\n'}
+[8.454374] (stonefish_ros2) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2_interface.dir/src/stonefish_ros2/ROS2ConsoleSimulationApp.cpp.o\x1b[0m\n'}
+[8.462300] (stonefish_ros2) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/stonefish_ros2/srv/detail/respawn__type_support.cpp.o\x1b[0m\n'}
+[8.513994] (stonefish_ros2) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/stonefish_ros2/msg/detail/dds_fastrtps/dvl__type_support.cpp.o\x1b[0m\n'}
+[8.522953] (-) TimerEvent: {}
+[8.538933] (stonefish_ros2) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2_interface.dir/src/stonefish_ros2/ROS2GraphicalSimulationApp.cpp.o\x1b[0m\n'}
+[8.623073] (-) TimerEvent: {}
+[8.626756] (stonefish_ros2) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2_interface.dir/src/stonefish_ros2/ROS2SimulationManager.cpp.o\x1b[0m\n'}
+[8.723182] (-) TimerEvent: {}
+[8.814572] (stonefish_ros2) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2_interface.dir/src/stonefish_ros2/ROS2ScenarioParser.cpp.o\x1b[0m\n'}
+[8.823299] (-) TimerEvent: {}
+[8.926710] (-) TimerEvent: {}
+[9.027102] (-) TimerEvent: {}
+[9.027747] (stonefish_ros2) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/stonefish_ros2/srv/detail/sonar_settings__type_support_c.cpp.o\x1b[0m\n'}
+[9.113895] (stonefish_ros2) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/stonefish_ros2/msg/detail/dds_fastrtps/thruster_state__type_support.cpp.o\x1b[0m\n'}
+[9.118393] (stonefish_ros2) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/stonefish_ros2/msg/detail/dds_fastrtps/debug_physics__type_support.cpp.o\x1b[0m\n'}
+[9.118773] (stonefish_ros2) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2_interface.dir/src/stonefish_ros2/ROS2Interface.cpp.o\x1b[0m\n'}
+[9.127215] (-) TimerEvent: {}
+[9.163782] (stonefish_ros2) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/stonefish_ros2/srv/detail/dds_fastrtps/sonar_settings__type_support.cpp.o\x1b[0m\n'}
+[9.226164] (stonefish_ros2) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libstonefish_ros2__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[9.227291] (-) TimerEvent: {}
+[9.234376] (stonefish_ros2) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/stonefish_ros2/srv/detail/sonar_settings2__type_support_c.cpp.o\x1b[0m\n'}
+[9.327435] (-) TimerEvent: {}
+[9.401442] (stonefish_ros2) StdoutLine: {'line': b'[ 77%] Built target stonefish_ros2__rosidl_typesupport_introspection_cpp\n'}
+[9.411438] (stonefish_ros2) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/stonefish_ros2/srv/detail/respawn__type_support_c.cpp.o\x1b[0m\n'}
+[9.420768] (stonefish_ros2) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/stonefish_ros2/srv/detail/dds_fastrtps/sonar_settings2__type_support.cpp.o\x1b[0m\n'}
+[9.427571] (-) TimerEvent: {}
+[9.528121] (-) TimerEvent: {}
+[9.628553] (-) TimerEvent: {}
+[9.732730] (-) TimerEvent: {}
+[9.739575] (stonefish_ros2) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/stonefish_ros2/srv/detail/dds_fastrtps/respawn__type_support.cpp.o\x1b[0m\n'}
+[9.832870] (-) TimerEvent: {}
+[9.933327] (-) TimerEvent: {}
+[10.033764] (-) TimerEvent: {}
+[10.125508] (stonefish_ros2) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX shared library libstonefish_ros2__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[10.133896] (-) TimerEvent: {}
+[10.234261] (-) TimerEvent: {}
+[10.282429] (stonefish_ros2) StdoutLine: {'line': b'[ 80%] Built target stonefish_ros2__rosidl_typesupport_fastrtps_c\n'}
+[10.334374] (-) TimerEvent: {}
+[10.334620] (stonefish_ros2) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX shared library libstonefish_ros2__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[10.434489] (-) TimerEvent: {}
+[10.444746] (stonefish_ros2) StdoutLine: {'line': b'[ 81%] Built target stonefish_ros2__rosidl_typesupport_fastrtps_cpp\n'}
+[10.469435] (stonefish_ros2) StdoutLine: {'line': b'[ 81%] Built target stonefish_ros2\n'}
+[10.495369] (stonefish_ros2) StdoutLine: {'line': b'[ 82%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[10.534593] (-) TimerEvent: {}
+[10.634915] (-) TimerEvent: {}
+[10.735252] (-) TimerEvent: {}
+[10.835559] (-) TimerEvent: {}
+[10.935890] (-) TimerEvent: {}
+[11.036199] (-) TimerEvent: {}
+[11.136496] (-) TimerEvent: {}
+[11.236821] (-) TimerEvent: {}
+[11.337139] (-) TimerEvent: {}
+[11.437462] (-) TimerEvent: {}
+[11.537833] (-) TimerEvent: {}
+[11.638149] (-) TimerEvent: {}
+[11.738474] (-) TimerEvent: {}
+[11.838800] (-) TimerEvent: {}
+[11.939134] (-) TimerEvent: {}
+[12.039483] (-) TimerEvent: {}
+[12.139827] (-) TimerEvent: {}
+[12.240142] (-) TimerEvent: {}
+[12.340459] (-) TimerEvent: {}
+[12.440801] (-) TimerEvent: {}
+[12.541101] (-) TimerEvent: {}
+[12.642714] (-) TimerEvent: {}
+[12.702611] (stonefish_ros2) StdoutLine: {'line': b'[ 82%] Built target stonefish_ros2__py\n'}
+[12.733239] (stonefish_ros2) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_generator_py.dir/rosidl_generator_py/stonefish_ros2/msg/_int32_stamped_s.c.o\x1b[0m\n'}
+[12.733530] (stonefish_ros2) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_generator_py.dir/rosidl_generator_py/stonefish_ros2/msg/_beacon_info_s.c.o\x1b[0m\n'}
+[12.733710] (stonefish_ros2) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_generator_py.dir/rosidl_generator_py/stonefish_ros2/msg/_dvl_beam_s.c.o\x1b[0m\n'}
+[12.734006] (stonefish_ros2) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_generator_py.dir/rosidl_generator_py/stonefish_ros2/msg/_ned_pose_s.c.o\x1b[0m\n'}
+[12.734158] (stonefish_ros2) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_generator_py.dir/rosidl_generator_py/stonefish_ros2/msg/_ins_s.c.o\x1b[0m\n'}
+[12.734308] (stonefish_ros2) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_generator_py.dir/rosidl_generator_py/stonefish_ros2/msg/_dvl_s.c.o\x1b[0m\n'}
+[12.734435] (stonefish_ros2) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_generator_py.dir/rosidl_generator_py/stonefish_ros2/msg/_thruster_state_s.c.o\x1b[0m\n'}
+[12.743735] (-) TimerEvent: {}
+[12.844159] (-) TimerEvent: {}
+[12.944677] (-) TimerEvent: {}
+[12.956982] (stonefish_ros2) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_generator_py.dir/rosidl_generator_py/stonefish_ros2/msg/_debug_physics_s.c.o\x1b[0m\n'}
+[12.957278] (stonefish_ros2) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_generator_py.dir/rosidl_generator_py/stonefish_ros2/srv/_sonar_settings_s.c.o\x1b[0m\n'}
+[12.958354] (stonefish_ros2) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_generator_py.dir/rosidl_generator_py/stonefish_ros2/srv/_sonar_settings2_s.c.o\x1b[0m\n'}
+[12.959571] (stonefish_ros2) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_generator_py.dir/rosidl_generator_py/stonefish_ros2/srv/_respawn_s.c.o\x1b[0m\n'}
+[13.044764] (-) TimerEvent: {}
+[13.145200] (-) TimerEvent: {}
+[13.182576] (stonefish_ros2) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/stonefish_ros2/libstonefish_ros2__rosidl_generator_py.so\x1b[0m\n'}
+[13.240677] (stonefish_ros2) StdoutLine: {'line': b'[ 92%] Built target stonefish_ros2__rosidl_generator_py\n'}
+[13.245314] (-) TimerEvent: {}
+[13.269879] (stonefish_ros2) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/stonefish_ros2/_stonefish_ros2_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[13.272121] (stonefish_ros2) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/stonefish_ros2/_stonefish_ros2_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[13.272351] (stonefish_ros2) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/stonefish_ros2/_stonefish_ros2_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[13.345436] (-) TimerEvent: {}
+[13.445846] (-) TimerEvent: {}
+[13.543424] (stonefish_ros2) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/stonefish_ros2/stonefish_ros2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[13.543746] (stonefish_ros2) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/stonefish_ros2/stonefish_ros2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[13.546012] (stonefish_ros2) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/stonefish_ros2/stonefish_ros2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[13.546221] (-) TimerEvent: {}
+[13.623460] (stonefish_ros2) StdoutLine: {'line': b'[ 95%] Built target stonefish_ros2__rosidl_typesupport_fastrtps_c__pyext\n'}
+[13.626437] (stonefish_ros2) StdoutLine: {'line': b'[ 95%] Built target stonefish_ros2__rosidl_typesupport_c__pyext\n'}
+[13.626721] (stonefish_ros2) StdoutLine: {'line': b'[ 95%] Built target stonefish_ros2__rosidl_typesupport_introspection_c__pyext\n'}
+[13.646341] (-) TimerEvent: {}
+[13.746671] (-) TimerEvent: {}
+[13.847019] (-) TimerEvent: {}
+[13.947341] (-) TimerEvent: {}
+[14.047675] (-) TimerEvent: {}
+[14.148029] (-) TimerEvent: {}
+[14.248382] (-) TimerEvent: {}
+[14.348748] (-) TimerEvent: {}
+[14.449062] (-) TimerEvent: {}
+[14.549379] (-) TimerEvent: {}
+[14.649693] (-) TimerEvent: {}
+[14.750002] (-) TimerEvent: {}
+[14.850296] (-) TimerEvent: {}
+[14.950595] (-) TimerEvent: {}
+[15.050897] (-) TimerEvent: {}
+[15.151186] (-) TimerEvent: {}
+[15.251482] (-) TimerEvent: {}
+[15.351796] (-) TimerEvent: {}
+[15.452091] (-) TimerEvent: {}
+[15.552379] (-) TimerEvent: {}
+[15.652679] (-) TimerEvent: {}
+[15.752979] (-) TimerEvent: {}
+[15.853289] (-) TimerEvent: {}
+[15.953600] (-) TimerEvent: {}
+[16.053907] (-) TimerEvent: {}
+[16.154196] (-) TimerEvent: {}
+[16.254491] (-) TimerEvent: {}
+[16.354811] (-) TimerEvent: {}
+[16.455100] (-) TimerEvent: {}
+[16.555374] (-) TimerEvent: {}
+[16.655658] (-) TimerEvent: {}
+[16.755931] (-) TimerEvent: {}
+[16.856212] (-) TimerEvent: {}
+[16.956491] (-) TimerEvent: {}
+[17.056803] (-) TimerEvent: {}
+[17.157094] (-) TimerEvent: {}
+[17.257387] (-) TimerEvent: {}
+[17.357687] (-) TimerEvent: {}
+[17.457974] (-) TimerEvent: {}
+[17.558267] (-) TimerEvent: {}
+[17.658557] (-) TimerEvent: {}
+[17.758858] (-) TimerEvent: {}
+[17.859148] (-) TimerEvent: {}
+[17.959458] (-) TimerEvent: {}
+[18.059768] (-) TimerEvent: {}
+[18.160066] (-) TimerEvent: {}
+[18.260375] (-) TimerEvent: {}
+[18.360741] (-) TimerEvent: {}
+[18.461148] (-) TimerEvent: {}
+[18.561477] (-) TimerEvent: {}
+[18.661879] (-) TimerEvent: {}
+[18.762176] (-) TimerEvent: {}
+[18.862483] (-) TimerEvent: {}
+[18.962945] (-) TimerEvent: {}
+[19.063299] (-) TimerEvent: {}
+[19.163712] (-) TimerEvent: {}
+[19.264092] (-) TimerEvent: {}
+[19.364416] (-) TimerEvent: {}
+[19.464743] (-) TimerEvent: {}
+[19.565018] (-) TimerEvent: {}
+[19.665305] (-) TimerEvent: {}
+[19.765601] (-) TimerEvent: {}
+[19.865854] (-) TimerEvent: {}
+[19.966120] (-) TimerEvent: {}
+[20.066383] (-) TimerEvent: {}
+[20.166652] (-) TimerEvent: {}
+[20.267021] (-) TimerEvent: {}
+[20.367379] (-) TimerEvent: {}
+[20.467682] (-) TimerEvent: {}
+[20.567949] (-) TimerEvent: {}
+[20.668241] (-) TimerEvent: {}
+[20.768599] (-) TimerEvent: {}
+[20.868979] (-) TimerEvent: {}
+[20.969260] (-) TimerEvent: {}
+[21.069549] (-) TimerEvent: {}
+[21.169853] (-) TimerEvent: {}
+[21.270146] (-) TimerEvent: {}
+[21.370377] (-) TimerEvent: {}
+[21.470690] (-) TimerEvent: {}
+[21.570927] (-) TimerEvent: {}
+[21.671217] (-) TimerEvent: {}
+[21.771517] (-) TimerEvent: {}
+[21.871800] (-) TimerEvent: {}
+[21.972044] (-) TimerEvent: {}
+[22.072393] (-) TimerEvent: {}
+[22.172667] (-) TimerEvent: {}
+[22.272910] (-) TimerEvent: {}
+[22.373182] (-) TimerEvent: {}
+[22.473457] (-) TimerEvent: {}
+[22.573741] (-) TimerEvent: {}
+[22.674038] (-) TimerEvent: {}
+[22.774323] (-) TimerEvent: {}
+[22.874609] (-) TimerEvent: {}
+[22.974841] (-) TimerEvent: {}
+[23.075105] (-) TimerEvent: {}
+[23.175364] (-) TimerEvent: {}
+[23.275626] (-) TimerEvent: {}
+[23.375902] (-) TimerEvent: {}
+[23.476163] (-) TimerEvent: {}
+[23.576408] (-) TimerEvent: {}
+[23.676760] (-) TimerEvent: {}
+[23.777087] (-) TimerEvent: {}
+[23.877355] (-) TimerEvent: {}
+[23.977619] (-) TimerEvent: {}
+[24.077852] (-) TimerEvent: {}
+[24.178115] (-) TimerEvent: {}
+[24.278346] (-) TimerEvent: {}
+[24.378607] (-) TimerEvent: {}
+[24.478838] (-) TimerEvent: {}
+[24.579101] (-) TimerEvent: {}
+[24.679360] (-) TimerEvent: {}
+[24.779627] (-) TimerEvent: {}
+[24.879874] (-) TimerEvent: {}
+[24.980132] (-) TimerEvent: {}
+[25.080447] (-) TimerEvent: {}
+[25.180773] (-) TimerEvent: {}
+[25.281040] (-) TimerEvent: {}
+[25.381277] (-) TimerEvent: {}
+[25.481528] (-) TimerEvent: {}
+[25.581774] (-) TimerEvent: {}
+[25.682057] (-) TimerEvent: {}
+[25.782310] (-) TimerEvent: {}
+[25.882601] (-) TimerEvent: {}
+[25.982949] (-) TimerEvent: {}
+[26.083282] (-) TimerEvent: {}
+[26.183557] (-) TimerEvent: {}
+[26.283831] (-) TimerEvent: {}
+[26.384117] (-) TimerEvent: {}
+[26.484362] (-) TimerEvent: {}
+[26.584618] (-) TimerEvent: {}
+[26.684862] (-) TimerEvent: {}
+[26.785126] (-) TimerEvent: {}
+[26.885380] (-) TimerEvent: {}
+[26.985600] (-) TimerEvent: {}
+[27.085861] (-) TimerEvent: {}
+[27.186148] (-) TimerEvent: {}
+[27.286409] (-) TimerEvent: {}
+[27.386670] (-) TimerEvent: {}
+[27.486949] (-) TimerEvent: {}
+[27.587226] (-) TimerEvent: {}
+[27.687491] (-) TimerEvent: {}
+[27.787736] (-) TimerEvent: {}
+[27.887987] (-) TimerEvent: {}
+[27.988240] (-) TimerEvent: {}
+[28.088497] (-) TimerEvent: {}
+[28.188746] (-) TimerEvent: {}
+[28.289018] (-) TimerEvent: {}
+[28.389314] (-) TimerEvent: {}
+[28.489577] (-) TimerEvent: {}
+[28.589847] (-) TimerEvent: {}
+[28.690076] (-) TimerEvent: {}
+[28.790394] (-) TimerEvent: {}
+[28.890660] (-) TimerEvent: {}
+[28.990930] (-) TimerEvent: {}
+[29.091248] (-) TimerEvent: {}
+[29.191581] (-) TimerEvent: {}
+[29.291819] (-) TimerEvent: {}
+[29.392039] (-) TimerEvent: {}
+[29.492294] (-) TimerEvent: {}
+[29.592547] (-) TimerEvent: {}
+[29.692775] (-) TimerEvent: {}
+[29.793027] (-) TimerEvent: {}
+[29.893304] (-) TimerEvent: {}
+[29.993558] (-) TimerEvent: {}
+[30.093785] (-) TimerEvent: {}
+[30.194070] (-) TimerEvent: {}
+[30.294332] (-) TimerEvent: {}
+[30.394598] (-) TimerEvent: {}
+[30.494851] (-) TimerEvent: {}
+[30.595113] (-) TimerEvent: {}
+[30.695375] (-) TimerEvent: {}
+[30.795659] (-) TimerEvent: {}
+[30.895914] (-) TimerEvent: {}
+[30.996166] (-) TimerEvent: {}
+[31.096487] (-) TimerEvent: {}
+[31.196770] (-) TimerEvent: {}
+[31.297039] (-) TimerEvent: {}
+[31.397294] (-) TimerEvent: {}
+[31.497552] (-) TimerEvent: {}
+[31.597778] (-) TimerEvent: {}
+[31.698046] (-) TimerEvent: {}
+[31.798305] (-) TimerEvent: {}
+[31.898575] (-) TimerEvent: {}
+[31.998818] (-) TimerEvent: {}
+[32.099083] (-) TimerEvent: {}
+[32.199364] (-) TimerEvent: {}
+[32.299584] (-) TimerEvent: {}
+[32.399850] (-) TimerEvent: {}
+[32.500109] (-) TimerEvent: {}
+[32.600348] (-) TimerEvent: {}
+[32.700648] (-) TimerEvent: {}
+[32.800890] (-) TimerEvent: {}
+[32.901189] (-) TimerEvent: {}
+[33.001443] (-) TimerEvent: {}
+[33.101703] (-) TimerEvent: {}
+[33.201960] (-) TimerEvent: {}
+[33.302217] (-) TimerEvent: {}
+[33.402470] (-) TimerEvent: {}
+[33.502729] (-) TimerEvent: {}
+[33.602950] (-) TimerEvent: {}
+[33.703167] (-) TimerEvent: {}
+[33.803436] (-) TimerEvent: {}
+[33.903696] (-) TimerEvent: {}
+[34.003969] (-) TimerEvent: {}
+[34.104247] (-) TimerEvent: {}
+[34.204473] (-) TimerEvent: {}
+[34.304721] (-) TimerEvent: {}
+[34.404997] (-) TimerEvent: {}
+[34.505264] (-) TimerEvent: {}
+[34.605547] (-) TimerEvent: {}
+[34.705857] (-) TimerEvent: {}
+[34.806096] (-) TimerEvent: {}
+[34.906356] (-) TimerEvent: {}
+[35.006655] (-) TimerEvent: {}
+[35.106876] (-) TimerEvent: {}
+[35.207130] (-) TimerEvent: {}
+[35.307386] (-) TimerEvent: {}
+[35.407652] (-) TimerEvent: {}
+[35.507928] (-) TimerEvent: {}
+[35.608220] (-) TimerEvent: {}
+[35.708471] (-) TimerEvent: {}
+[35.808682] (-) TimerEvent: {}
+[35.908939] (-) TimerEvent: {}
+[36.009162] (-) TimerEvent: {}
+[36.109424] (-) TimerEvent: {}
+[36.209715] (-) TimerEvent: {}
+[36.309969] (-) TimerEvent: {}
+[36.410236] (-) TimerEvent: {}
+[36.510494] (-) TimerEvent: {}
+[36.610717] (-) TimerEvent: {}
+[36.710957] (-) TimerEvent: {}
+[36.811207] (-) TimerEvent: {}
+[36.911462] (-) TimerEvent: {}
+[37.011717] (-) TimerEvent: {}
+[37.111964] (-) TimerEvent: {}
+[37.212186] (-) TimerEvent: {}
+[37.312471] (-) TimerEvent: {}
+[37.412815] (-) TimerEvent: {}
+[37.513374] (-) TimerEvent: {}
+[37.613840] (-) TimerEvent: {}
+[37.714080] (-) TimerEvent: {}
+[37.814374] (-) TimerEvent: {}
+[37.914601] (-) TimerEvent: {}
+[38.014940] (-) TimerEvent: {}
+[38.115185] (-) TimerEvent: {}
+[38.215409] (-) TimerEvent: {}
+[38.315673] (-) TimerEvent: {}
+[38.415918] (-) TimerEvent: {}
+[38.516162] (-) TimerEvent: {}
+[38.616418] (-) TimerEvent: {}
+[38.716683] (-) TimerEvent: {}
+[38.816952] (-) TimerEvent: {}
+[38.917224] (-) TimerEvent: {}
+[39.017514] (-) TimerEvent: {}
+[39.117808] (-) TimerEvent: {}
+[39.218121] (-) TimerEvent: {}
+[39.318387] (-) TimerEvent: {}
+[39.418652] (-) TimerEvent: {}
+[39.518890] (-) TimerEvent: {}
+[39.619161] (-) TimerEvent: {}
+[39.719424] (-) TimerEvent: {}
+[39.819732] (-) TimerEvent: {}
+[39.889540] (stonefish_ros2) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX shared library libstonefish_ros2_interface.so\x1b[0m\n'}
+[39.919813] (-) TimerEvent: {}
+[40.020102] (-) TimerEvent: {}
+[40.120379] (-) TimerEvent: {}
+[40.220682] (-) TimerEvent: {}
+[40.320991] (-) TimerEvent: {}
+[40.421405] (-) TimerEvent: {}
+[40.521734] (-) TimerEvent: {}
+[40.622134] (-) TimerEvent: {}
+[40.722486] (-) TimerEvent: {}
+[40.822810] (-) TimerEvent: {}
+[40.923165] (-) TimerEvent: {}
+[41.023476] (-) TimerEvent: {}
+[41.123836] (-) TimerEvent: {}
+[41.224160] (-) TimerEvent: {}
+[41.324512] (-) TimerEvent: {}
+[41.424840] (-) TimerEvent: {}
+[41.525167] (-) TimerEvent: {}
+[41.625487] (-) TimerEvent: {}
+[41.725747] (-) TimerEvent: {}
+[41.826034] (-) TimerEvent: {}
+[41.926419] (-) TimerEvent: {}
+[42.026833] (-) TimerEvent: {}
+[42.127219] (-) TimerEvent: {}
+[42.227651] (-) TimerEvent: {}
+[42.328090] (-) TimerEvent: {}
+[42.428456] (-) TimerEvent: {}
+[42.528815] (-) TimerEvent: {}
+[42.629132] (-) TimerEvent: {}
+[42.729416] (-) TimerEvent: {}
+[42.829681] (-) TimerEvent: {}
+[42.929935] (-) TimerEvent: {}
+[43.030199] (-) TimerEvent: {}
+[43.130472] (-) TimerEvent: {}
+[43.230753] (-) TimerEvent: {}
+[43.331001] (-) TimerEvent: {}
+[43.431255] (-) TimerEvent: {}
+[43.531529] (-) TimerEvent: {}
+[43.631728] (-) TimerEvent: {}
+[43.731999] (-) TimerEvent: {}
+[43.832329] (-) TimerEvent: {}
+[43.932599] (-) TimerEvent: {}
+[44.024481] (stonefish_ros2) StdoutLine: {'line': b'[ 96%] Built target stonefish_ros2_interface\n'}
+[44.032758] (-) TimerEvent: {}
+[44.044297] (stonefish_ros2) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_simulator_nogpu.dir/src/stonefish_simulator_nogpu.cpp.o\x1b[0m\n'}
+[44.044466] (stonefish_ros2) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding CXX object CMakeFiles/stonefish_simulator.dir/src/stonefish_simulator.cpp.o\x1b[0m\n'}
+[44.132846] (-) TimerEvent: {}
+[44.233081] (-) TimerEvent: {}
+[44.333321] (-) TimerEvent: {}
+[44.433668] (-) TimerEvent: {}
+[44.533985] (-) TimerEvent: {}
+[44.634215] (-) TimerEvent: {}
+[44.734495] (-) TimerEvent: {}
+[44.834748] (-) TimerEvent: {}
+[44.935015] (-) TimerEvent: {}
+[45.035298] (-) TimerEvent: {}
+[45.135632] (-) TimerEvent: {}
+[45.235992] (-) TimerEvent: {}
+[45.336345] (-) TimerEvent: {}
+[45.436725] (-) TimerEvent: {}
+[45.537065] (-) TimerEvent: {}
+[45.637430] (-) TimerEvent: {}
+[45.737760] (-) TimerEvent: {}
+[45.838030] (-) TimerEvent: {}
+[45.938298] (-) TimerEvent: {}
+[46.038569] (-) TimerEvent: {}
+[46.138851] (-) TimerEvent: {}
+[46.239188] (-) TimerEvent: {}
+[46.339505] (-) TimerEvent: {}
+[46.439734] (-) TimerEvent: {}
+[46.540028] (-) TimerEvent: {}
+[46.640341] (-) TimerEvent: {}
+[46.740683] (-) TimerEvent: {}
+[46.840961] (-) TimerEvent: {}
+[46.941247] (-) TimerEvent: {}
+[47.041552] (-) TimerEvent: {}
+[47.141897] (-) TimerEvent: {}
+[47.242229] (-) TimerEvent: {}
+[47.342567] (-) TimerEvent: {}
+[47.442847] (-) TimerEvent: {}
+[47.543131] (-) TimerEvent: {}
+[47.643425] (-) TimerEvent: {}
+[47.743705] (-) TimerEvent: {}
+[47.844037] (-) TimerEvent: {}
+[47.944464] (-) TimerEvent: {}
+[48.044989] (-) TimerEvent: {}
+[48.145452] (-) TimerEvent: {}
+[48.245922] (-) TimerEvent: {}
+[48.346275] (-) TimerEvent: {}
+[48.446598] (-) TimerEvent: {}
+[48.546960] (-) TimerEvent: {}
+[48.647514] (-) TimerEvent: {}
+[48.747977] (-) TimerEvent: {}
+[48.848436] (-) TimerEvent: {}
+[48.948806] (-) TimerEvent: {}
+[49.049192] (-) TimerEvent: {}
+[49.149492] (-) TimerEvent: {}
+[49.249817] (-) TimerEvent: {}
+[49.350218] (-) TimerEvent: {}
+[49.450531] (-) TimerEvent: {}
+[49.551022] (-) TimerEvent: {}
+[49.651507] (-) TimerEvent: {}
+[49.751810] (-) TimerEvent: {}
+[49.801021] (stonefish_ros2) StdoutLine: {'line': b'[ 99%] \x1b[32m\x1b[1mLinking CXX executable stonefish_simulator_nogpu\x1b[0m\n'}
+[49.851915] (-) TimerEvent: {}
+[49.940580] (stonefish_ros2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable stonefish_simulator\x1b[0m\n'}
+[49.952023] (-) TimerEvent: {}
+[50.052362] (-) TimerEvent: {}
+[50.152780] (-) TimerEvent: {}
+[50.253327] (-) TimerEvent: {}
+[50.353898] (-) TimerEvent: {}
+[50.454350] (-) TimerEvent: {}
+[50.554920] (-) TimerEvent: {}
+[50.655453] (-) TimerEvent: {}
+[50.755911] (-) TimerEvent: {}
+[50.856529] (-) TimerEvent: {}
+[50.957049] (-) TimerEvent: {}
+[51.057530] (-) TimerEvent: {}
+[51.158073] (-) TimerEvent: {}
+[51.258591] (-) TimerEvent: {}
+[51.359197] (-) TimerEvent: {}
+[51.459719] (-) TimerEvent: {}
+[51.560230] (-) TimerEvent: {}
+[51.660795] (-) TimerEvent: {}
+[51.761290] (-) TimerEvent: {}
+[51.861769] (-) TimerEvent: {}
+[51.962235] (-) TimerEvent: {}
+[52.062715] (-) TimerEvent: {}
+[52.163256] (-) TimerEvent: {}
+[52.263768] (-) TimerEvent: {}
+[52.364242] (-) TimerEvent: {}
+[52.464597] (-) TimerEvent: {}
+[52.565001] (-) TimerEvent: {}
+[52.665410] (-) TimerEvent: {}
+[52.765954] (-) TimerEvent: {}
+[52.866483] (-) TimerEvent: {}
+[52.966995] (-) TimerEvent: {}
+[53.067427] (-) TimerEvent: {}
+[53.167826] (-) TimerEvent: {}
+[53.268238] (-) TimerEvent: {}
+[53.368681] (-) TimerEvent: {}
+[53.469173] (-) TimerEvent: {}
+[53.569539] (-) TimerEvent: {}
+[53.593108] (stonefish_ros2) StdoutLine: {'line': b'[100%] Built target stonefish_simulator_nogpu\n'}
+[53.669685] (-) TimerEvent: {}
+[53.769975] (-) TimerEvent: {}
+[53.829285] (stonefish_ros2) StdoutLine: {'line': b'[100%] Built target stonefish_simulator\n'}
+[53.842354] (stonefish_ros2) CommandEnded: {'returncode': 0}
+[53.843286] (stonefish_ros2) JobProgress: {'identifier': 'stonefish_ros2', 'progress': 'install'}
+[53.852766] (stonefish_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mazen/mini_girona/build/stonefish_ros2'], 'cwd': '/home/mazen/mini_girona/build/stonefish_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'mazen'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mazen/mini_girona/install/stonefish_ros2/lib:/home/mazen/mini_girona/install/cola2_lib_ros/lib:/home/mazen/mini_girona/install/cola2_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mazen'), ('OLDPWD', '/home/mazen/mini_girona/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('MANAGERPID', '2120'), ('SYSTEMD_EXEC_PID', '2676'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3900'), ('COLCON_PREFIX_PATH', '/home/mazen/mini_girona/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'mazen'), ('JOURNAL_STREAM', '8:18106'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mazen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mazen:@/tmp/.ICE-unix/2502,unix/mazen:/tmp/.ICE-unix/2502'), ('INVOCATION_ID', 'fec39daef7464ca49f851e22b9dd4418'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mazen/mini_girona/install/cola2_nav:/home/mazen/mini_girona/install/minigirona_stonefish:/home/mazen/mini_girona/install/stonefish_ros2:/home/mazen/mini_girona/install/cola2_minigirona:/home/mazen/mini_girona/install/minigirona_description:/home/mazen/mini_girona/install/cola2_control:/home/mazen/mini_girona/install/cola2_lib_ros:/home/mazen/mini_girona/install/cola2_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:922fd7c1-49f3-44a4-8874-2ba4ff057ece'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mazen/mini_girona/build/stonefish_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages:/home/mazen/mini_girona/install/cola2_control/local/lib/python3.10/dist-packages:/home/mazen/mini_girona/install/cola2_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mazen/mini_girona/install/cola2_nav:/home/mazen/mini_girona/install/minigirona_stonefish:/home/mazen/mini_girona/install/stonefish_ros2:/home/mazen/mini_girona/install/cola2_minigirona:/home/mazen/mini_girona/install/minigirona_description:/home/mazen/mini_girona/install/cola2_control:/home/mazen/mini_girona/install/cola2_lib_ros:/home/mazen/mini_girona/install/cola2_msgs:/opt/ros/humble')]), 'shell': False}
+[53.860616] (stonefish_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[53.860901] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/ament_index/resource_index/rosidl_interfaces/stonefish_ros2\n'}
+[53.861062] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2\n'}
+[53.861218] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/srv\n'}
+[53.861293] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/srv/respawn.h\n'}
+[53.861456] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/srv/sonar_settings2.h\n'}
+[53.861548] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/srv/sonar_settings.h\n'}
+[53.861668] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/srv/detail\n'}
+[53.861805] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/srv/detail/sonar_settings__type_support.h\n'}
+[53.861904] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/srv/detail/respawn__type_support.h\n'}
+[53.862094] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/srv/detail/sonar_settings__functions.c\n'}
+[53.862220] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/srv/detail/sonar_settings__struct.h\n'}
+[53.862341] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/srv/detail/sonar_settings2__functions.c\n'}
+[53.862426] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/srv/detail/sonar_settings2__type_support.h\n'}
+[53.862516] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/srv/detail/sonar_settings2__functions.h\n'}
+[53.862568] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/srv/detail/sonar_settings2__struct.h\n'}
+[53.862620] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/srv/detail/respawn__functions.c\n'}
+[53.862785] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/srv/detail/sonar_settings__functions.h\n'}
+[53.862925] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/srv/detail/respawn__functions.h\n'}
+[53.863060] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/srv/detail/respawn__struct.h\n'}
+[53.863158] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg\n'}
+[53.863289] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/debug_physics.h\n'}
+[53.863389] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/thruster_state.h\n'}
+[53.863486] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/beacon_info.h\n'}
+[53.863600] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/ins.h\n'}
+[53.863717] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/rosidl_generator_c__visibility_control.h\n'}
+[53.863806] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/dvl.h\n'}
+[53.863893] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/int32_stamped.h\n'}
+[53.864012] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/dvl_beam.h\n'}
+[53.864107] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/ned_pose.h\n'}
+[53.864216] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail\n'}
+[53.864328] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/beacon_info__functions.c\n'}
+[53.864421] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/debug_physics__struct.h\n'}
+[53.864529] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/debug_physics__functions.h\n'}
+[53.864660] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/int32_stamped__type_support.h\n'}
+[53.864786] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/dvl_beam__functions.h\n'}
+[53.864895] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/beacon_info__struct.h\n'}
+[53.864986] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/dvl__struct.h\n'}
+[53.865118] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/thruster_state__functions.h\n'}
+[53.865243] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/thruster_state__struct.h\n'}
+[53.865335] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/ned_pose__struct.h\n'}
+[53.865441] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/int32_stamped__functions.h\n'}
+[53.865554] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/thruster_state__functions.c\n'}
+[53.865647] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/beacon_info__functions.h\n'}
+[53.865768] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/debug_physics__functions.c\n'}
+[53.865820] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/dvl__type_support.h\n'}
+[53.865870] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/dvl_beam__struct.h\n'}
+[53.865941] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/dvl_beam__functions.c\n'}
+[53.866015] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/ins__functions.h\n'}
+[53.866087] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/int32_stamped__functions.c\n'}
+[53.866157] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/ned_pose__functions.c\n'}
+[53.866226] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/ins__struct.h\n'}
+[53.866293] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/beacon_info__type_support.h\n'}
+[53.866387] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/ins__functions.c\n'}
+[53.866488] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/dvl__functions.h\n'}
+[53.866593] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/ned_pose__type_support.h\n'}
+[53.866826] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/debug_physics__type_support.h\n'}
+[53.866922] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/int32_stamped__struct.h\n'}
+[53.867020] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/dvl__functions.c\n'}
+[53.867126] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/ins__type_support.h\n'}
+[53.867221] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/thruster_state__type_support.h\n'}
+[53.867317] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/ned_pose__functions.h\n'}
+[53.867391] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/dvl_beam__type_support.h\n'}
+[53.867577] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/environment/library_path.sh\n'}
+[53.867718] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/environment/library_path.dsv\n'}
+[53.867888] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/lib/libstonefish_ros2__rosidl_generator_c.so\n'}
+[53.868399] (stonefish_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/mazen/mini_girona/install/stonefish_ros2/lib/libstonefish_ros2__rosidl_generator_c.so" to ""\n'}
+[53.868483] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2\n'}
+[53.868596] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/srv\n'}
+[53.868665] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/srv/detail\n'}
+[53.868723] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/srv/detail/sonar_settings__rosidl_typesupport_fastrtps_c.h\n'}
+[53.868861] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/srv/detail/respawn__rosidl_typesupport_fastrtps_c.h\n'}
+[53.868929] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/srv/detail/sonar_settings2__rosidl_typesupport_fastrtps_c.h\n'}
+[53.868989] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg\n'}
+[53.869148] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[53.869249] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail\n'}
+[53.869325] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/ned_pose__rosidl_typesupport_fastrtps_c.h\n'}
+[53.869390] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/beacon_info__rosidl_typesupport_fastrtps_c.h\n'}
+[53.869452] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/debug_physics__rosidl_typesupport_fastrtps_c.h\n'}
+[53.869509] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/dvl_beam__rosidl_typesupport_fastrtps_c.h\n'}
+[53.869593] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/dvl__rosidl_typesupport_fastrtps_c.h\n'}
+[53.869686] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/thruster_state__rosidl_typesupport_fastrtps_c.h\n'}
+[53.869744] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/ins__rosidl_typesupport_fastrtps_c.h\n'}
+[53.869805] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/int32_stamped__rosidl_typesupport_fastrtps_c.h\n'}
+[53.869917] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/lib/libstonefish_ros2__rosidl_typesupport_fastrtps_c.so\n'}
+[53.870009] (-) TimerEvent: {}
+[53.870232] (stonefish_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/mazen/mini_girona/install/stonefish_ros2/lib/libstonefish_ros2__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[53.870362] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2\n'}
+[53.870459] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/srv\n'}
+[53.870515] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/srv/sonar_settings.hpp\n'}
+[53.870609] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/srv/respawn.hpp\n'}
+[53.870726] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/srv/sonar_settings2.hpp\n'}
+[53.870801] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/srv/detail\n'}
+[53.870858] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/srv/detail/sonar_settings2__struct.hpp\n'}
+[53.870939] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/srv/detail/sonar_settings__struct.hpp\n'}
+[53.871015] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/srv/detail/sonar_settings__builder.hpp\n'}
+[53.871068] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/srv/detail/sonar_settings__type_support.hpp\n'}
+[53.871179] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/srv/detail/respawn__traits.hpp\n'}
+[53.871253] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/srv/detail/sonar_settings2__builder.hpp\n'}
+[53.871333] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/srv/detail/sonar_settings2__type_support.hpp\n'}
+[53.871431] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/srv/detail/respawn__builder.hpp\n'}
+[53.871544] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/srv/detail/sonar_settings__traits.hpp\n'}
+[53.871656] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/srv/detail/respawn__type_support.hpp\n'}
+[53.871744] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/srv/detail/sonar_settings2__traits.hpp\n'}
+[53.871821] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/srv/detail/respawn__struct.hpp\n'}
+[53.871904] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg\n'}
+[53.872019] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/dvl_beam.hpp\n'}
+[53.872100] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/thruster_state.hpp\n'}
+[53.872218] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/ned_pose.hpp\n'}
+[53.872338] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/debug_physics.hpp\n'}
+[53.872430] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/beacon_info.hpp\n'}
+[53.872547] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/ins.hpp\n'}
+[53.872658] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[53.872767] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/dvl.hpp\n'}
+[53.872854] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/int32_stamped.hpp\n'}
+[53.872932] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail\n'}
+[53.873046] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/debug_physics__traits.hpp\n'}
+[53.873172] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/int32_stamped__traits.hpp\n'}
+[53.873229] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/dvl__struct.hpp\n'}
+[53.873290] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/int32_stamped__struct.hpp\n'}
+[53.873373] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/beacon_info__traits.hpp\n'}
+[53.873464] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/debug_physics__struct.hpp\n'}
+[53.873581] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/dvl_beam__type_support.hpp\n'}
+[53.873675] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/ned_pose__builder.hpp\n'}
+[53.873750] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/debug_physics__builder.hpp\n'}
+[53.873830] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/int32_stamped__builder.hpp\n'}
+[53.873908] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/beacon_info__builder.hpp\n'}
+[53.873986] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/ned_pose__traits.hpp\n'}
+[53.874087] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/dvl__traits.hpp\n'}
+[53.874191] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/ins__builder.hpp\n'}
+[53.874322] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/ins__type_support.hpp\n'}
+[53.874435] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/debug_physics__type_support.hpp\n'}
+[53.874538] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/dvl__builder.hpp\n'}
+[53.874664] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/beacon_info__type_support.hpp\n'}
+[53.874750] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/dvl_beam__builder.hpp\n'}
+[53.874826] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/thruster_state__builder.hpp\n'}
+[53.874908] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/ned_pose__type_support.hpp\n'}
+[53.875011] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/dvl_beam__traits.hpp\n'}
+[53.875144] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/thruster_state__type_support.hpp\n'}
+[53.875252] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/dvl_beam__struct.hpp\n'}
+[53.875348] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/thruster_state__struct.hpp\n'}
+[53.875454] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/ned_pose__struct.hpp\n'}
+[53.875564] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/ins__struct.hpp\n'}
+[53.875672] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/int32_stamped__type_support.hpp\n'}
+[53.875784] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/ins__traits.hpp\n'}
+[53.875895] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/dvl__type_support.hpp\n'}
+[53.876007] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/thruster_state__traits.hpp\n'}
+[53.876119] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/beacon_info__struct.hpp\n'}
+[53.876235] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2\n'}
+[53.876306] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/srv\n'}
+[53.876380] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/srv/detail\n'}
+[53.876466] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/srv/detail/sonar_settings__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[53.876549] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/srv/detail/respawn__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[53.876674] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/srv/detail/sonar_settings2__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[53.876802] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/srv/detail/dds_fastrtps\n'}
+[53.876899] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg\n'}
+[53.877011] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[53.877105] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail\n'}
+[53.877162] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/int32_stamped__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[53.877239] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/debug_physics__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[53.877321] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/dvl_beam__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[53.877407] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/dvl__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[53.877461] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/ins__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[53.877563] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/dds_fastrtps\n'}
+[53.877673] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/beacon_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[53.877781] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/thruster_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[53.877875] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/ned_pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[53.877985] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/lib/libstonefish_ros2__rosidl_typesupport_fastrtps_cpp.so\n'}
+[53.878376] (stonefish_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/mazen/mini_girona/install/stonefish_ros2/lib/libstonefish_ros2__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[53.878474] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2\n'}
+[53.878598] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/srv\n'}
+[53.878694] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/srv/detail\n'}
+[53.878755] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/srv/detail/respawn__type_support.c\n'}
+[53.878853] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/srv/detail/respawn__rosidl_typesupport_introspection_c.h\n'}
+[53.878983] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/srv/detail/sonar_settings2__type_support.c\n'}
+[53.879044] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/srv/detail/sonar_settings__rosidl_typesupport_introspection_c.h\n'}
+[53.879108] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/srv/detail/sonar_settings__type_support.c\n'}
+[53.879191] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/srv/detail/sonar_settings2__rosidl_typesupport_introspection_c.h\n'}
+[53.879253] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg\n'}
+[53.879326] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[53.879417] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail\n'}
+[53.879534] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/int32_stamped__rosidl_typesupport_introspection_c.h\n'}
+[53.879629] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/dvl_beam__rosidl_typesupport_introspection_c.h\n'}
+[53.879757] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/beacon_info__type_support.c\n'}
+[53.879828] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/ned_pose__type_support.c\n'}
+[53.879909] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/ins__type_support.c\n'}
+[53.879963] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/thruster_state__type_support.c\n'}
+[53.880034] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/thruster_state__rosidl_typesupport_introspection_c.h\n'}
+[53.880133] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/dvl_beam__type_support.c\n'}
+[53.880243] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/ins__rosidl_typesupport_introspection_c.h\n'}
+[53.880375] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/dvl__rosidl_typesupport_introspection_c.h\n'}
+[53.880481] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/debug_physics__type_support.c\n'}
+[53.880596] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/dvl__type_support.c\n'}
+[53.880741] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/debug_physics__rosidl_typesupport_introspection_c.h\n'}
+[53.880840] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/beacon_info__rosidl_typesupport_introspection_c.h\n'}
+[53.880922] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/ned_pose__rosidl_typesupport_introspection_c.h\n'}
+[53.881015] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/int32_stamped__type_support.c\n'}
+[53.881173] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/lib/libstonefish_ros2__rosidl_typesupport_introspection_c.so\n'}
+[53.881609] (stonefish_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/mazen/mini_girona/install/stonefish_ros2/lib/libstonefish_ros2__rosidl_typesupport_introspection_c.so" to ""\n'}
+[53.881761] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/lib/libstonefish_ros2__rosidl_typesupport_c.so\n'}
+[53.882068] (stonefish_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/mazen/mini_girona/install/stonefish_ros2/lib/libstonefish_ros2__rosidl_typesupport_c.so" to ""\n'}
+[53.882240] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2\n'}
+[53.882328] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/srv\n'}
+[53.882400] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/srv/detail\n'}
+[53.882494] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/srv/detail/respawn__type_support.cpp\n'}
+[53.882614] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/srv/detail/sonar_settings2__rosidl_typesupport_introspection_cpp.hpp\n'}
+[53.882743] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/srv/detail/sonar_settings__rosidl_typesupport_introspection_cpp.hpp\n'}
+[53.882811] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/srv/detail/sonar_settings__type_support.cpp\n'}
+[53.882868] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/srv/detail/respawn__rosidl_typesupport_introspection_cpp.hpp\n'}
+[53.882926] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/srv/detail/sonar_settings2__type_support.cpp\n'}
+[53.883012] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg\n'}
+[53.883077] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail\n'}
+[53.883130] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/ins__rosidl_typesupport_introspection_cpp.hpp\n'}
+[53.883213] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/debug_physics__type_support.cpp\n'}
+[53.883313] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/dvl__type_support.cpp\n'}
+[53.883381] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/int32_stamped__type_support.cpp\n'}
+[53.883436] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/ned_pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[53.883552] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/ins__type_support.cpp\n'}
+[53.883724] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/thruster_state__type_support.cpp\n'}
+[53.883862] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/dvl_beam__type_support.cpp\n'}
+[53.883945] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/beacon_info__type_support.cpp\n'}
+[53.884022] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/dvl_beam__rosidl_typesupport_introspection_cpp.hpp\n'}
+[53.884100] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/ned_pose__type_support.cpp\n'}
+[53.884192] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/thruster_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[53.884296] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/debug_physics__rosidl_typesupport_introspection_cpp.hpp\n'}
+[53.884402] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/dvl__rosidl_typesupport_introspection_cpp.hpp\n'}
+[53.884533] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/beacon_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[53.884649] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/stonefish_ros2/stonefish_ros2/msg/detail/int32_stamped__rosidl_typesupport_introspection_cpp.hpp\n'}
+[53.884808] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/lib/libstonefish_ros2__rosidl_typesupport_introspection_cpp.so\n'}
+[53.885313] (stonefish_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/mazen/mini_girona/install/stonefish_ros2/lib/libstonefish_ros2__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[53.885400] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/lib/libstonefish_ros2__rosidl_typesupport_cpp.so\n'}
+[53.885808] (stonefish_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/mazen/mini_girona/install/stonefish_ros2/lib/libstonefish_ros2__rosidl_typesupport_cpp.so" to ""\n'}
+[53.885950] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/environment/pythonpath.sh\n'}
+[53.886013] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/environment/pythonpath.dsv\n'}
+[53.886098] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages/stonefish_ros2-1.3.0-py3.10.egg-info\n'}
+[53.886213] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages/stonefish_ros2-1.3.0-py3.10.egg-info/top_level.txt\n'}
+[53.886333] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages/stonefish_ros2-1.3.0-py3.10.egg-info/PKG-INFO\n'}
+[53.886438] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages/stonefish_ros2-1.3.0-py3.10.egg-info/dependency_links.txt\n'}
+[53.886540] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages/stonefish_ros2-1.3.0-py3.10.egg-info/SOURCES.txt\n'}
+[53.886654] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages/stonefish_ros2\n'}
+[53.886729] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages/stonefish_ros2/_stonefish_ros2_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[53.886832] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages/stonefish_ros2/stonefish_ros2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[53.886948] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages/stonefish_ros2/srv\n'}
+[53.887048] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages/stonefish_ros2/srv/_sonar_settings2.py\n'}
+[53.887155] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages/stonefish_ros2/srv/_sonar_settings.py\n'}
+[53.887258] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages/stonefish_ros2/srv/_respawn_s.c\n'}
+[53.887367] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages/stonefish_ros2/srv/_sonar_settings_s.c\n'}
+[53.887441] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages/stonefish_ros2/srv/__init__.py\n'}
+[53.887538] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages/stonefish_ros2/srv/_respawn.py\n'}
+[53.887648] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages/stonefish_ros2/srv/_sonar_settings2_s.c\n'}
+[53.887802] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages/stonefish_ros2/_stonefish_ros2_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[53.887956] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages/stonefish_ros2/libstonefish_ros2__rosidl_generator_py.so\n'}
+[53.888170] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages/stonefish_ros2/__init__.py\n'}
+[53.888261] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages/stonefish_ros2/_stonefish_ros2_s.ep.rosidl_typesupport_c.c\n'}
+[53.888410] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages/stonefish_ros2/stonefish_ros2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[53.888545] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages/stonefish_ros2/stonefish_ros2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[53.888742] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages/stonefish_ros2/msg\n'}
+[53.888881] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages/stonefish_ros2/msg/_dvl_beam_s.c\n'}
+[53.888975] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages/stonefish_ros2/msg/_thruster_state_s.c\n'}
+[53.889093] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages/stonefish_ros2/msg/_ins_s.c\n'}
+[53.889252] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages/stonefish_ros2/msg/_ned_pose_s.c\n'}
+[53.889319] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages/stonefish_ros2/msg/_ned_pose.py\n'}
+[53.889398] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages/stonefish_ros2/msg/_debug_physics_s.c\n'}
+[53.889517] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages/stonefish_ros2/msg/_int32_stamped.py\n'}
+[53.889623] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages/stonefish_ros2/msg/_int32_stamped_s.c\n'}
+[53.889722] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages/stonefish_ros2/msg/__init__.py\n'}
+[53.889840] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages/stonefish_ros2/msg/_ins.py\n'}
+[53.889928] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages/stonefish_ros2/msg/_beacon_info.py\n'}
+[53.890017] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages/stonefish_ros2/msg/_dvl_s.c\n'}
+[53.890133] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages/stonefish_ros2/msg/_beacon_info_s.c\n'}
+[53.890223] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages/stonefish_ros2/msg/_dvl_beam.py\n'}
+[53.890324] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages/stonefish_ros2/msg/_dvl.py\n'}
+[53.890414] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages/stonefish_ros2/msg/_debug_physics.py\n'}
+[53.890518] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages/stonefish_ros2/msg/_thruster_state.py\n'}
+[53.942754] (stonefish_ros2) StdoutLine: {'line': b"Listing '/home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages/stonefish_ros2'...\n"}
+[53.942909] (stonefish_ros2) StdoutLine: {'line': b"Compiling '/home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages/stonefish_ros2/__init__.py'...\n"}
+[53.942968] (stonefish_ros2) StdoutLine: {'line': b"Listing '/home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages/stonefish_ros2/msg'...\n"}
+[53.943027] (stonefish_ros2) StdoutLine: {'line': b"Compiling '/home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages/stonefish_ros2/msg/__init__.py'...\n"}
+[53.943076] (stonefish_ros2) StdoutLine: {'line': b"Compiling '/home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages/stonefish_ros2/msg/_beacon_info.py'...\n"}
+[53.943123] (stonefish_ros2) StdoutLine: {'line': b"Compiling '/home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages/stonefish_ros2/msg/_debug_physics.py'...\n"}
+[53.943169] (stonefish_ros2) StdoutLine: {'line': b"Compiling '/home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages/stonefish_ros2/msg/_dvl.py'...\n"}
+[53.943214] (stonefish_ros2) StdoutLine: {'line': b"Compiling '/home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages/stonefish_ros2/msg/_dvl_beam.py'...\n"}
+[53.943265] (stonefish_ros2) StdoutLine: {'line': b"Compiling '/home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages/stonefish_ros2/msg/_ins.py'...\n"}
+[53.943311] (stonefish_ros2) StdoutLine: {'line': b"Compiling '/home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages/stonefish_ros2/msg/_int32_stamped.py'...\n"}
+[53.943356] (stonefish_ros2) StdoutLine: {'line': b"Compiling '/home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages/stonefish_ros2/msg/_ned_pose.py'...\n"}
+[53.943409] (stonefish_ros2) StdoutLine: {'line': b"Compiling '/home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages/stonefish_ros2/msg/_thruster_state.py'...\n"}
+[53.943455] (stonefish_ros2) StdoutLine: {'line': b"Listing '/home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages/stonefish_ros2/srv'...\n"}
+[53.943501] (stonefish_ros2) StdoutLine: {'line': b"Compiling '/home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages/stonefish_ros2/srv/__init__.py'...\n"}
+[53.943547] (stonefish_ros2) StdoutLine: {'line': b"Compiling '/home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages/stonefish_ros2/srv/_respawn.py'...\n"}
+[53.943593] (stonefish_ros2) StdoutLine: {'line': b"Compiling '/home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages/stonefish_ros2/srv/_sonar_settings.py'...\n"}
+[53.943648] (stonefish_ros2) StdoutLine: {'line': b"Compiling '/home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages/stonefish_ros2/srv/_sonar_settings2.py'...\n"}
+[53.947498] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages/stonefish_ros2/stonefish_ros2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[53.947914] (stonefish_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages/stonefish_ros2/stonefish_ros2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[53.948120] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages/stonefish_ros2/stonefish_ros2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[53.948509] (stonefish_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages/stonefish_ros2/stonefish_ros2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[53.948700] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages/stonefish_ros2/stonefish_ros2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[53.949118] (stonefish_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/mazen/mini_girona/install/stonefish_ros2/local/lib/python3.10/dist-packages/stonefish_ros2/stonefish_ros2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[53.949279] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/lib/libstonefish_ros2__rosidl_generator_py.so\n'}
+[53.949664] (stonefish_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/mazen/mini_girona/install/stonefish_ros2/lib/libstonefish_ros2__rosidl_generator_py.so" to ""\n'}
+[53.949748] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/msg/Int32Stamped.idl\n'}
+[53.949911] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/msg/BeaconInfo.idl\n'}
+[53.950113] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/msg/NEDPose.idl\n'}
+[53.950264] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/msg/INS.idl\n'}
+[53.950417] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/msg/DVLBeam.idl\n'}
+[53.950526] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/msg/DVL.idl\n'}
+[53.950606] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/msg/ThrusterState.idl\n'}
+[53.950689] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/msg/DebugPhysics.idl\n'}
+[53.950812] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/srv/SonarSettings.idl\n'}
+[53.950974] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/srv/SonarSettings2.idl\n'}
+[53.951058] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/srv/Respawn.idl\n'}
+[53.951236] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/msg/Int32Stamped.msg\n'}
+[53.951398] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/msg/BeaconInfo.msg\n'}
+[53.951529] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/msg/NEDPose.msg\n'}
+[53.951609] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/msg/INS.msg\n'}
+[53.951808] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/msg/DVLBeam.msg\n'}
+[53.951971] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/msg/DVL.msg\n'}
+[53.952110] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/msg/ThrusterState.msg\n'}
+[53.952198] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/msg/DebugPhysics.msg\n'}
+[53.952271] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/srv/SonarSettings.srv\n'}
+[53.952347] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/srv/SonarSettings_Request.msg\n'}
+[53.952490] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/srv/SonarSettings_Response.msg\n'}
+[53.952596] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/srv/SonarSettings2.srv\n'}
+[53.952788] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/srv/SonarSettings2_Request.msg\n'}
+[53.952958] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/srv/SonarSettings2_Response.msg\n'}
+[53.953055] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/srv/Respawn.srv\n'}
+[53.953165] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/srv/Respawn_Request.msg\n'}
+[53.953298] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/srv/Respawn_Response.msg\n'}
+[53.953439] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/lib/libstonefish_ros2_interface.so\n'}
+[53.970150] (-) TimerEvent: {}
+[53.982431] (stonefish_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/mazen/mini_girona/install/stonefish_ros2/lib/libstonefish_ros2_interface.so" to ""\n'}
+[53.982622] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/include\n'}
+[53.982687] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/include/stonefish_ros2\n'}
+[53.982742] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/include/stonefish_ros2/ROS2Interface.h\n'}
+[53.982795] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/include/stonefish_ros2/ROS2SimulationManager.h\n'}
+[53.982924] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/include/stonefish_ros2/ROS2ScenarioParser.h\n'}
+[53.983000] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/include/stonefish_ros2/ROS2ConsoleSimulationApp.h\n'}
+[53.983054] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/include/include/stonefish_ros2/ROS2GraphicalSimulationApp.h\n'}
+[53.983136] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/lib/stonefish_ros2/stonefish_simulator\n'}
+[53.983742] (stonefish_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/mazen/mini_girona/install/stonefish_ros2/lib/stonefish_ros2/stonefish_simulator" to ""\n'}
+[53.983835] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/lib/stonefish_ros2/stonefish_simulator_nogpu\n'}
+[53.984259] (stonefish_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/mazen/mini_girona/install/stonefish_ros2/lib/stonefish_ros2/stonefish_simulator_nogpu" to ""\n'}
+[53.984338] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/launch\n'}
+[53.984417] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/launch/stonefish_simulator_nogpu.launch.py\n'}
+[53.984517] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/launch/stonefish_simulator.launch.py\n'}
+[53.984613] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/ament_index/resource_index/package_run_dependencies/stonefish_ros2\n'}
+[53.984765] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/ament_index/resource_index/parent_prefix_path/stonefish_ros2\n'}
+[53.984964] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/environment/ament_prefix_path.sh\n'}
+[53.985094] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/environment/ament_prefix_path.dsv\n'}
+[53.985224] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/environment/path.sh\n'}
+[53.985351] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/environment/path.dsv\n'}
+[53.985511] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/local_setup.bash\n'}
+[53.985608] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/local_setup.sh\n'}
+[53.985686] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/local_setup.zsh\n'}
+[53.985901] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/local_setup.dsv\n'}
+[53.986052] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/package.dsv\n'}
+[53.986200] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/ament_index/resource_index/packages/stonefish_ros2\n'}
+[53.986320] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/cmake/export_stonefish_ros2__rosidl_generator_cExport.cmake\n'}
+[53.986459] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/cmake/export_stonefish_ros2__rosidl_generator_cExport-noconfig.cmake\n'}
+[53.986560] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/cmake/export_stonefish_ros2__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[53.986762] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/cmake/export_stonefish_ros2__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[53.986832] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/cmake/export_stonefish_ros2__rosidl_generator_cppExport.cmake\n'}
+[53.987039] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/cmake/export_stonefish_ros2__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[53.987137] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/cmake/export_stonefish_ros2__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[53.987358] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/cmake/stonefish_ros2__rosidl_typesupport_introspection_cExport.cmake\n'}
+[53.987502] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/cmake/stonefish_ros2__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[53.987584] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/cmake/stonefish_ros2__rosidl_typesupport_cExport.cmake\n'}
+[53.987735] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/cmake/stonefish_ros2__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[53.987896] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/cmake/stonefish_ros2__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[53.988050] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/cmake/stonefish_ros2__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[53.988191] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/cmake/stonefish_ros2__rosidl_typesupport_cppExport.cmake\n'}
+[53.988287] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/cmake/stonefish_ros2__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[53.988401] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/cmake/export_stonefish_ros2__rosidl_generator_pyExport.cmake\n'}
+[53.988546] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/cmake/export_stonefish_ros2__rosidl_generator_pyExport-noconfig.cmake\n'}
+[53.988744] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/cmake/rosidl_cmake-extras.cmake\n'}
+[53.988896] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[53.989045] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[53.989196] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[53.989369] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[53.989446] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[53.989520] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[53.989627] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/cmake/stonefish_ros2Config.cmake\n'}
+[53.989795] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/cmake/stonefish_ros2Config-version.cmake\n'}
+[53.989916] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/mazen/mini_girona/install/stonefish_ros2/share/stonefish_ros2/package.xml\n'}
+[53.992109] (stonefish_ros2) CommandEnded: {'returncode': 0}
+[54.012546] (stonefish_ros2) JobEnded: {'identifier': 'stonefish_ros2', 'rc': 0}
+[54.013253] (-) EventReactorShutdown: {}
